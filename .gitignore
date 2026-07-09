@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Secrets — never commit. This tool is read-only and needs no keys, but
+# guard against accidental RPC keys / env files.
+.env
+*.key
+*.pem
+secrets*.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

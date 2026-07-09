@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onchain-proof"
+version = "0.1.0"
+description = "Verify any wallet's DeFi holdings trustlessly from on-chain state. Read-only, zero dependencies."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Yomi Oguntona", email = "baba.analytix@gmail.com" }]
+keywords = ["defi", "ethereum", "base", "uniswap", "aerodrome", "transparency", "public-good", "onchain", "proof"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = []   # standard library only
+
+[project.urls]
+Homepage = "https://babacapital.app/proof"
+Source = "https://github.com/babacapital/onchain-proof"
+
+[project.scripts]
+onchain-proof = "onchain_proof.__main__:main"
+
+[tool.setuptools]
+packages = ["onchain_proof"]
