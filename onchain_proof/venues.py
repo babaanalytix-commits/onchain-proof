@@ -14,12 +14,14 @@ Contributions welcome via PR: add a chain/venue with a cited source.
 VENUES = {
     "base": {
         "uniswap_v3": {
+            # verified 2026-07-10 against BaseScan
             "npm": "0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1",
-            "verify": "https://docs.uniswap.org/contracts/v3/reference/deployments/base-deployments",
+            "verify": "https://basescan.org/address/0x03a520b32c04bf3beef7beb72e919cf822ed34f1",
         },
         "aerodrome_slipstream": {
+            # verified 2026-07-10 against BaseScan (Slipstream initial deployment)
             "npm": "0x827922686190790b37229fd06084350E74485b72",
-            "verify": "https://aerodrome.finance/ (Slipstream NPM — verify before trusting)",
+            "verify": "https://basescan.org/address/0x827922686190790b37229fd06084350e74485b72",
         },
     },
 }
