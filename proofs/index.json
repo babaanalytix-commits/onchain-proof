@@ -1,0 +1,14 @@
+{
+  "contract": "0x9932AEd609692d3C512B69bbE1090AE3BF9356d9",
+  "chain": "base-8453",
+  "how_to_verify": "keccak256(raw bytes of proofs/proof-YYYY-Www.json) == the Anchored event 'hash' for label nav-YYYY-Www on the contract",
+  "proofs": [
+    {
+      "week": "2026-W28",
+      "file": "proof-2026-W28.json",
+      "bytes": 77391,
+      "keccak256": "0xf092ae110aa309e986d43919284641ea4cdd4cdf4dbca4fd164667e01d35adc1",
+      "label": "nav-2026-W28"
+    }
+  ]
+}
