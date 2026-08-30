@@ -1,0 +1,3255 @@
+{
+  "ai_competition": {
+    "egalitarian_mode": true,
+    "md": {
+      "chatgpt": {
+        "agreed_with_incumbent": 422,
+        "available_pct": 92.7,
+        "blocked": 519,
+        "parse_error": 2,
+        "pass": 813,
+        "pass_rate_pct": 50.0,
+        "total": 1627,
+        "unavailable": 116,
+        "watch": 177
+      },
+      "claude-haiku-4-5": {
+        "agreed_with_incumbent": 0,
+        "available_pct": 100.0,
+        "blocked": 6,
+        "parse_error": 0,
+        "pass": 0,
+        "pass_rate_pct": 0.0,
+        "total": 6,
+        "unavailable": 0,
+        "watch": 0
+      },
+      "claude-sonnet-4-6": {
+        "agreed_with_incumbent": 0,
+        "available_pct": 100.0,
+        "blocked": 663,
+        "parse_error": 0,
+        "pass": 254,
+        "pass_rate_pct": 15.2,
+        "total": 1676,
+        "unavailable": 0,
+        "watch": 759
+      },
+      "gemini-2.5-flash": {
+        "agreed_with_incumbent": 373,
+        "available_pct": 92.3,
+        "blocked": 68,
+        "parse_error": 14,
+        "pass": 1233,
+        "pass_rate_pct": 74.1,
+        "total": 1665,
+        "unavailable": 114,
+        "watch": 236
+      },
+      "gemini-3-pro": {
+        "agreed_with_incumbent": 0,
+        "available_pct": 0.0,
+        "blocked": 0,
+        "parse_error": 2,
+        "pass": 0,
+        "pass_rate_pct": 0.0,
+        "total": 6,
+        "unavailable": 4,
+        "watch": 0
+      },
+      "grok-4": {
+        "agreed_with_incumbent": 0,
+        "available_pct": 0.0,
+        "blocked": 0,
+        "parse_error": 0,
+        "pass": 0,
+        "pass_rate_pct": 0.0,
+        "total": 6,
+        "unavailable": 6,
+        "watch": 0
+      },
+      "grok-4-fast": {
+        "agreed_with_incumbent": 0,
+        "available_pct": 0.0,
+        "blocked": 0,
+        "parse_error": 0,
+        "pass": 0,
+        "pass_rate_pct": 0.0,
+        "total": 4,
+        "unavailable": 4,
+        "watch": 0
+      },
+      "grok-4.3": {
+        "agreed_with_incumbent": 446,
+        "available_pct": 93.2,
+        "blocked": 990,
+        "parse_error": 0,
+        "pass": 398,
+        "pass_rate_pct": 23.9,
+        "total": 1666,
+        "unavailable": 114,
+        "watch": 164
+      },
+      "perplexity-sonar": {
+        "agreed_with_incumbent": 0,
+        "available_pct": 100.0,
+        "blocked": 4,
+        "parse_error": 0,
+        "pass": 1,
+        "pass_rate_pct": 10.0,
+        "total": 10,
+        "unavailable": 0,
+        "watch": 5
+      }
+    },
+    "min_agreement": 2,
+    "oracle": {
+      "chatgpt": {
+        "agreed_with_incumbent": 1528,
+        "available_pct": 99.1,
+        "blocked": 1710,
+        "parse_error": 0,
+        "pass": 556,
+        "pass_rate_pct": 10.6,
+        "total": 5269,
+        "unavailable": 47,
+        "watch": 2956
+      },
+      "claude-haiku-4-5": {
+        "agreed_with_incumbent": 0,
+        "available_pct": 100.0,
+        "blocked": 6,
+        "parse_error": 0,
+        "pass": 0,
+        "pass_rate_pct": 0.0,
+        "total": 6,
+        "unavailable": 0,
+        "watch": 0
+      },
+      "claude-sonnet-4-6": {
+        "agreed_with_incumbent": 0,
+        "available_pct": 100.0,
+        "blocked": 672,
+        "parse_error": 0,
+        "pass": 3220,
+        "pass_rate_pct": 49.1,
+        "total": 6560,
+        "unavailable": 0,
+        "watch": 2668
+      },
+      "gemini-2.5-flash": {
+        "agreed_with_incumbent": 3346,
+        "available_pct": 98.0,
+        "blocked": 316,
+        "parse_error": 77,
+        "pass": 5040,
+        "pass_rate_pct": 76.8,
+        "total": 6560,
+        "unavailable": 51,
+        "watch": 1076
+      },
+      "grok-4.3": {
+        "agreed_with_incumbent": 1111,
+        "available_pct": 99.1,
+        "blocked": 5058,
+        "parse_error": 4,
+        "pass": 640,
+        "pass_rate_pct": 10.8,
+        "total": 5901,
+        "unavailable": 51,
+        "watch": 148
+      },
+      "perplexity-sonar": {
+        "agreed_with_incumbent": 0,
+        "available_pct": 100.0,
+        "blocked": 2,
+        "parse_error": 0,
+        "pass": 0,
+        "pass_rate_pct": 0.0,
+        "total": 6,
+        "unavailable": 0,
+        "watch": 4
+      }
+    },
+    "pnl_attribution": {
+      "md_ai": {
+        "closed_count": 40,
+        "losers": 21,
+        "total_realized_usd": 5.6581,
+        "win_rate_pct": 47.5,
+        "winners": 19
+      },
+      "oracle_ai": {
+        "closed_count": 54,
+        "losers": 37,
+        "total_realized_usd": -71.4815,
+        "win_rate_pct": 31.5,
+        "winners": 17
+      }
+    },
+    "total_voters": 4
+  },
+  "ai_cost": {
+    "anthropic": {
+      "md_budget_remaining_usd": 48.82,
+      "md_today_usd": 0.015,
+      "md_total_usd": 87.552,
+      "oracle_budget_remaining_usd": 39.47,
+      "oracle_today_usd": 0.0948,
+      "oracle_total_usd": 104.8365
+    },
+    "combined_today_usd": 0.1248,
+    "combined_total_usd": 285.4732,
+    "openrouter": {
+      "balance_remaining_usd": 4.749293929999993,
+      "by_model": {
+        "chatgpt": {
+          "calls": 6880,
+          "today_usd": 0.0,
+          "total_usd": 43.5233
+        },
+        "gemini-2.5-flash": {
+          "calls": 8218,
+          "today_usd": 0.015,
+          "total_usd": 8.9641
+        },
+        "gemini-3-pro": {
+          "calls": 6,
+          "today_usd": 0.0,
+          "total_usd": 0.0105
+        },
+        "grok-4": {
+          "calls": 6,
+          "today_usd": 0.0,
+          "total_usd": 0.0
+        },
+        "grok-4-fast": {
+          "calls": 4,
+          "today_usd": 0.0,
+          "total_usd": 0.0
+        },
+        "grok-4.3": {
+          "calls": 7560,
+          "today_usd": 0.0,
+          "total_usd": 40.5868
+        }
+      },
+      "today_usd": 0.015,
+      "total_usd": 93.0847
+    }
+  },
+  "ai_pipeline_diagnostic": {
+    "generated_at_iso": "2026-08-30T07:16:12.557591+00:00",
+    "pillars": {
+      "md": {
+        "hours_since_last_judge_call": null,
+        "hours_since_last_pass": null,
+        "hours_since_last_scan": 0.0,
+        "http_errors_today": 0,
+        "last_5_scans": [
+          {
+            "emitted": 0,
+            "judge_pass": 0,
+            "triage_pass": 0,
+            "ts_iso": "2026-07-07T06:10"
+          },
+          {
+            "emitted": 0,
+            "judge_pass": 0,
+            "triage_pass": 0,
+            "ts_iso": "2026-07-07T06:35"
+          },
+          {
+            "emitted": 0,
+            "judge_pass": 0,
+            "triage_pass": 0,
+            "ts_iso": "2026-07-07T06:40"
+          },
+          {
+            "emitted": 0,
+            "judge_pass": 0,
+            "triage_pass": 0,
+            "ts_iso": "2026-07-07T07:05"
+          },
+          {
+            "emitted": 0,
+            "judge_pass": 0,
+            "triage_pass": 0,
+            "ts_iso": "2026-07-07T07:10"
+          }
+        ],
+        "last_scan": {
+          "emitted": 0,
+          "judge_pass": 0,
+          "triage_pass": 0,
+          "ts_iso": "2026-07-07T07:10:41.563019+00:00"
+        },
+        "recent_block_assets": [],
+        "recent_block_reasons": [],
+        "scan_source": "heartbeat",
+        "status": "quiet",
+        "warnings": [
+          "No PASS signal in 24h+ \u2014 scanner running but consistent BLOCK. Check the recent_block_assets list."
+        ]
+      },
+      "oracle": {
+        "hours_since_last_judge_call": 0.4,
+        "hours_since_last_pass": 1.9,
+        "hours_since_last_scan": 0.4,
+        "http_errors_today": 0,
+        "last_5_scans": [
+          {
+            "emitted": 2,
+            "judge_pass": 2,
+            "triage_pass": 4,
+            "ts_iso": "2026-08-30T02:22"
+          },
+          {
+            "emitted": 0,
+            "judge_pass": 0,
+            "triage_pass": 2,
+            "ts_iso": "2026-08-30T03:52"
+          },
+          {
+            "emitted": 1,
+            "judge_pass": 1,
+            "triage_pass": 1,
+            "ts_iso": "2026-08-30T05:22"
+          },
+          {
+            "emitted": null,
+            "judge_pass": null,
+            "triage_pass": null,
+            "ts_iso": "2026-08-30T05:22"
+          },
+          {
+            "emitted": 0,
+            "judge_pass": 0,
+            "triage_pass": 2,
+            "ts_iso": "2026-08-30T06:52"
+          }
+        ],
+        "last_scan": {
+          "emitted": 0,
+          "judge_pass": 0,
+          "triage_pass": 2,
+          "ts_iso": "2026-08-30T06:52:16.084901+00:00"
+        },
+        "recent_block_assets": [
+          "657162410340615312",
+          "100620279245762803",
+          "399847103561771872"
+        ],
+        "recent_block_reasons": [],
+        "scan_source": "cadence_log",
+        "status": "active",
+        "wallet": {
+          "active": "0x9a3B0892454200589DccCF2a714F4315a69BAc89",
+          "detail": "ok",
+          "expected": "0x9a3B0892454200589DccCF2a714F4315a69BAc89",
+          "ok": true
+        },
+        "warnings": []
+      }
+    }
+  },
+  "ai_spend_tier": {
+    "cadence_min": 30,
+    "cap_per_pillar_usd": 3.0,
+    "daily_cap": {
+      "md_ai": 6.0,
+      "oracle_ai": 5.0,
+      "tier_default": 3.0
+    },
+    "error": "snapshot tier read err: NameError: name 'cap' is not defined",
+    "lifetime": {
+      "md_ai": {
+        "cap": 60.0,
+        "remaining": 0.0,
+        "spent": 87.552
+      },
+      "oracle_ai": {
+        "cap": 55.0,
+        "remaining": 0.0,
+        "spent": 104.8365
+      }
+    },
+    "name": "PROVEN",
+    "pct_used": 0.0,
+    "promotion_criteria": "\u2014",
+    "promotion_status": {
+      "changed": false,
+      "reason": "init"
+    },
+    "remaining": {
+      "md_ai": 5.985,
+      "oracle_ai": 4.9052,
+      "total": 10.8903
+    },
+    "set_at_iso": "2026-06-24T12:30:15.021441+00:00",
+    "set_by": "auto_promotion",
+    "spent_today": {
+      "md_ai": 0.015,
+      "oracle_ai": 0.0948,
+      "total": 0.1097
+    },
+    "tier": 3
+  },
+  "circuit_breaker": {
+    "active": true,
+    "daily_loss_usd": null,
+    "gated_by": "portfolio-master",
+    "reason": "auto: hyperliquid margin at 85.1% (CRITICAL >85%) \u2014 liquidation risk on at least one venue",
+    "triggered_at": "2026-08-09T11:08:40.183529+00:00",
+    "triggered_by": "auto"
+  },
+  "generated_at_iso": "2026-08-30T07:15:40.023091+00:00",
+  "lp_harvest": {
+    "available": true,
+    "generated_at_iso": "2026-08-30T06:39:50.566542+00:00",
+    "policy": {
+      "auto_execute": false,
+      "reinvest_ratio": 0.8,
+      "threshold_usd": 1.5
+    },
+    "summary": {
+      "n_positions": 18,
+      "n_to_harvest_now": 1,
+      "total_reinvest_usd": 2.74,
+      "total_take_profit_usd": 0.69,
+      "total_to_harvest_usd": 3.43,
+      "total_unclaimed_usd": 5.66
+    },
+    "top_positions": [
+      {
+        "fees_owed_usd": 3.4309,
+        "in_range": true,
+        "nft_token_id": 540409,
+        "pair": "WHYPE/USDC",
+        "pending_aero_usd": null,
+        "pool_address": "0x6c9A33E3b592C0d65B3Ba59355d5Be0d38259285",
+        "position_value_usd": 3017.34,
+        "protocol": "prjx",
+        "reason": "accrued $3.43 >= threshold $1.50 (0.11% of position) \u2014 reinvest 80% / take-profit 20%",
+        "reinvest_usd": 2.7447,
+        "should_harvest": true,
+        "take_profit_usd": 0.6862,
+        "total_unclaimed_usd": 3.4309,
+        "yield_pct_on_position": 0.114
+      },
+      {
+        "fees_owed_usd": 1.1369,
+        "in_range": true,
+        "nft_token_id": 538175,
+        "pair": "WHYPE/UBTC",
+        "pending_aero_usd": null,
+        "pool_address": "0x0D6ECB912b6ee160e95Bc198b618Acc1bCb92525",
+        "position_value_usd": 2066.26,
+        "protocol": "prjx",
+        "reason": "accrued $1.14 below threshold $1.50 \u2014 let fees compound a bit more",
+        "reinvest_usd": 0.0,
+        "should_harvest": false,
+        "take_profit_usd": 0.0,
+        "total_unclaimed_usd": 1.1369,
+        "yield_pct_on_position": 0.055
+      },
+      {
+        "fees_owed_usd": 1.0325,
+        "in_range": true,
+        "nft_token_id": 75633679,
+        "pair": "USDC/cbBTC",
+        "pending_aero_usd": null,
+        "pool_address": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+        "position_value_usd": 225.78,
+        "protocol": "slipstream",
+        "reason": "accrued $1.03 below threshold $1.50 \u2014 let fees compound a bit more",
+        "reinvest_usd": 0.0,
+        "should_harvest": false,
+        "take_profit_usd": 0.0,
+        "total_unclaimed_usd": 1.0325,
+        "yield_pct_on_position": 0.457
+      },
+      {
+        "fees_owed_usd": 0.0566,
+        "in_range": true,
+        "nft_token_id": 75616840,
+        "pair": "WETH/cbBTC",
+        "pending_aero_usd": null,
+        "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "position_value_usd": 92.63,
+        "protocol": "slipstream",
+        "reason": "accrued $0.06 below threshold $1.50 \u2014 let fees compound a bit more",
+        "reinvest_usd": 0.0,
+        "should_harvest": false,
+        "take_profit_usd": 0.0,
+        "total_unclaimed_usd": 0.0566,
+        "yield_pct_on_position": 0.061
+      },
+      {
+        "fees_owed_usd": 0.0,
+        "in_range": true,
+        "nft_token_id": 75249609,
+        "pair": "WETH/cbBTC",
+        "pending_aero_usd": null,
+        "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "position_value_usd": 0.0,
+        "protocol": "slipstream",
+        "reason": "accrued $0.00 below threshold $1.50 \u2014 let fees compound a bit more",
+        "reinvest_usd": 0.0,
+        "should_harvest": false,
+        "take_profit_usd": 0.0,
+        "total_unclaimed_usd": 0.0,
+        "yield_pct_on_position": 0.0
+      }
+    ]
+  },
+  "lp_summary": {
+    "bankroll_config": {
+      "lp_cb_drawdown_pct_threshold": 5.0,
+      "per_position_max_usd": 25.0,
+      "total_lp_bankroll_usd": 100.0
+    },
+    "cooldown_map": {
+      "485927": 1780998437.948627,
+      "488196": 1781000075.795478,
+      "488915": 1781026490.126109,
+      "488926": 1781019266.808832,
+      "489077": 1781052510.278377,
+      "489122": 1781052518.8471649,
+      "489253": 1781052527.840332,
+      "489579": 1781130580.6003132,
+      "489581": 1781117016.115235,
+      "490660": 1781200464.8921611,
+      "491034": 1781177260.882747,
+      "491668": 1781205721.9743,
+      "491879": 1781201503.74287,
+      "491907": 1781267721.1401181,
+      "491986": 1781286025.994082,
+      "492544": 1781327378.082409,
+      "492850": 1781310495.010716,
+      "493090": 1781474309.6860008,
+      "493177": 1781433141.869157,
+      "493707": 1781497031.0772228,
+      "493931": 1781521171.9019678,
+      "494277": 1781581112.77585,
+      "494707": 1781588398.728729,
+      "495703": 1781581175.8691258,
+      "495705": 1781596158.064049,
+      "495942": 1781615618.826968,
+      "496232": 1781614344.891645,
+      "497068": 1781640110.914001,
+      "497160": 1781641200.8388019,
+      "497786": 1781832882.6830661,
+      "497806": 1781672059.7014232,
+      "498147": 1781697909.701547,
+      "498445": 1781713904.066935,
+      "498695": 1781729486.019027,
+      "498900": 1781759222.116693,
+      "499202": 1782102003.047368,
+      "500079": 1781886382.72284,
+      "500557": 1782030363.824258,
+      "501431": 1782102010.91966,
+      "501837": 1782135620.004647,
+      "501838": 1782152613.0094998,
+      "502103": 1782180573.976773,
+      "502232": 1782153714.666759,
+      "502251": 1782195322.701154,
+      "502431": 1782181128.065633,
+      "502434": 1782209173.147728,
+      "502527": 1782270231.199005,
+      "502777": 1782323261.172263,
+      "503527": 1782334694.935715,
+      "504211": 1782334443.617255,
+      "504364": 1782766003.930271,
+      "504368": 1782418204.948595,
+      "505111": 1782591695.936247,
+      "506237": 1782740299.8817742,
+      "506925": 1782939485.795816,
+      "507282": 1782869897.798809,
+      "507897": 1783000126.0930948,
+      "508373": 1783016955.731084,
+      "508800": 1783077345.926562,
+      "508952": 1783090843.9761229,
+      "509486": 1783151928.882219,
+      "509792": 1783230271.665579,
+      "510461": 1783345256.7228138,
+      "510820": 1783306183.67913,
+      "511193": 1783460703.4820821,
+      "511484": 1783389077.603729,
+      "511758": 1783475372.012948,
+      "512208": 1783715310.8873558,
+      "512279": 1783932896.827948,
+      "513500": 1783979052.9243908,
+      "514359": 1783981475.143242,
+      "514823": 1784224122.886122,
+      "514851": 1784087445.800255,
+      "515607": 1784223940.937537,
+      "516416": 1784267367.6733189,
+      "516418": 1784261328.674357,
+      "516835": 1784656275.577357,
+      "516930": 1784461349.682566,
+      "518233": 1784699546.6183,
+      "519100": 1784738437.728652,
+      "519315": 1785203321.053459,
+      "519722": 1784812538.0823722,
+      "520062": 1784844811.01072,
+      "520232": 1785127547.800125,
+      "521188": 1785172086.014219,
+      "521391": 1785243132.8779688,
+      "521684": 1785249113.926281,
+      "522063": 1785410623.6970382,
+      "522182": 1785556796.760617,
+      "523260": 1785452337.411524,
+      "523558": 1785528121.671734,
+      "523937": 1785839153.818826,
+      "524126": 1785781187.405034,
+      "525230": 1785913012.755612,
+      "525400": 1786128227.4569752,
+      "525796": 1786133848.752338,
+      "526698": 1786392362.733304,
+      "526732": 1786593521.596697,
+      "527470": 1786625735.951662,
+      "528038": 1786960615.603206,
+      "528193": 1787172315.5006669,
+      "529134": 1787171460.680656,
+      "530462": 1787208222.769809,
+      "530522": 1787282753.032541,
+      "531331": 1787262270.723464,
+      "532355": 1787367011.799388,
+      "532589": 1787367083.724362,
+      "533860": 1787397709.885966,
+      "533862": 1787524846.902973,
+      "534609": 1787443218.172904,
+      "535155": 1787824030.05895,
+      "535958": 1787559626.669618,
+      "536359": 1787741455.041736,
+      "538715": 1787853217.746864,
+      "539295": 1787909702.944135,
+      "539813": 1787943354.8345249,
+      "540107": 1788014562.705226,
+      "71481609": 1780772745.226315,
+      "71716683": 1780779027.190027,
+      "71778520": 1781011671.228253,
+      "71780981": 1781043447.255189,
+      "71861392": 1781023249.277441,
+      "71861662": 1783074427.167372,
+      "71863549": 1781488399.120671,
+      "71867311": 1781068369.16994,
+      "71873506": 1781069165.289239,
+      "71873628": 1781207541.185476,
+      "71926107": 1781207791.257588,
+      "71926128": 1781240405.436501,
+      "71937139": 1781277155.273576,
+      "71942656": 1781323437.361748,
+      "72001001": 1781811111.2264519,
+      "72120057": 1782328121.1749818,
+      "72126050": 1781811179.2619798,
+      "72423558": 1782442555.140535,
+      "72428745": 1782328309.211701,
+      "72483970": 1782547243.0441868,
+      "72490419": 1782824325.528385,
+      "72515999": 1782554241.3072379,
+      "72517033": 1782554863.1358862,
+      "72517127": 1782566249.188266,
+      "72518673": 1782566507.293642,
+      "72518703": 1782778163.291289,
+      "72598204": 1782941787.22932,
+      "72636144": 1783200885.027699,
+      "72691069": 1786650407.550863,
+      "72752281": 1784120469.360211,
+      "72759673": 1783201657.2778099,
+      "73128856": 1785637197.721555,
+      "73793332": 1786104882.631714,
+      "74104780": 1786644313.430805,
+      "74571400": 1787066167.253655,
+      "74577577": 1786653639.607977,
+      "74580534": 1786984719.568161,
+      "74879863": 1786995120.285397,
+      "74890773": 1787016764.653669,
+      "74912367": 1787155299.7088819,
+      "74974343": 1787170706.379772,
+      "75060091": 1787227664.589474,
+      "75074783": 1787176114.479054,
+      "75078911": 1787197739.4731698,
+      "75101642": 1787243285.8384042,
+      "75133234": 1787255281.5445812,
+      "75148031": 1787290419.492278,
+      "75160209": 1787286073.83564,
+      "75188195": 1787307160.520405,
+      "75192915": 1787306673.297077,
+      "75208794": 1787627512.612606,
+      "75209315": 1787348182.423242,
+      "75249609": 1787404607.493784,
+      "75302686": 1787443078.49407,
+      "75340996": 1787492741.84773,
+      "75387198": 1787559542.410856,
+      "75444571": 1787579873.863864,
+      "75460135": 1787607898.185036,
+      "75484445": 1787630535.9255612,
+      "75500677": 1787757111.550445,
+      "75503442": 1787650625.809681,
+      "75522285": 1787673000.358712,
+      "75547215": 1787700423.79883,
+      "75572736": 1787716486.3686972,
+      "75588592": 1787742721.228823,
+      "75616840": 1787742721.232231,
+      "75633679": 1787757111.554158
+    },
+    "dust_filtered_count": 2,
+    "lp_auto_execute_enabled": true,
+    "lp_cb_active": false,
+    "lp_cb_reason": "reset at 2026-06-09T09:15:50.972786+00:00: manual: Yomi disabled CB 2026-06-09 (halt-only, no remedial action)",
+    "lp_url": "/engine/api/lp.html",
+    "n_open_positions": 16,
+    "n_rebalance_plans": 0,
+    "n_suggestions": 5,
+    "open_positions": [
+      {
+        "chain": "hyperevm",
+        "current_apr_pct": 44.85,
+        "fees_owed_usd": 0.0,
+        "in_range": true,
+        "nft_token_id": 538175,
+        "pair": "WHYPE/UBTC",
+        "pending_aero": null,
+        "pending_aero_usd": null,
+        "pool_address": "0x0D6ECB912b6ee160e95Bc198b618Acc1bCb92525",
+        "protocol": "prjx",
+        "staked": false,
+        "value_usd": 2068.411464203152
+      },
+      {
+        "chain": "hyperevm",
+        "current_apr_pct": 67.85,
+        "fees_owed_usd": 0.044518826056963785,
+        "in_range": true,
+        "nft_token_id": 540409,
+        "pair": "WHYPE/USDC",
+        "pending_aero": null,
+        "pending_aero_usd": null,
+        "pool_address": "0x6c9A33E3b592C0d65B3Ba59355d5Be0d38259285",
+        "protocol": "prjx",
+        "staked": false,
+        "value_usd": 3018.7373750783822
+      },
+      {
+        "chain": "base",
+        "current_apr_pct": 8.21,
+        "fees_owed_usd": 2.336611791674631e-13,
+        "in_range": true,
+        "nft_token_id": 75249609,
+        "pair": "WETH/cbBTC",
+        "pending_aero": null,
+        "pending_aero_usd": null,
+        "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "protocol": "slipstream",
+        "staked": true,
+        "value_usd": 5.249505838917017e-11
+      },
+      {
+        "chain": "base",
+        "current_apr_pct": 4.38,
+        "fees_owed_usd": 1.500350729391079e-13,
+        "in_range": true,
+        "nft_token_id": 75387198,
+        "pair": "WETH/cbBTC",
+        "pending_aero": null,
+        "pending_aero_usd": null,
+        "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "protocol": "slipstream",
+        "staked": true,
+        "value_usd": 9.840579070853719e-11
+      },
+      {
+        "chain": "base",
+        "current_apr_pct": 5.04,
+        "fees_owed_usd": 2.238228137288331e-13,
+        "in_range": true,
+        "nft_token_id": 75302686,
+        "pair": "WETH/cbBTC",
+        "pending_aero": null,
+        "pending_aero_usd": null,
+        "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "protocol": "slipstream",
+        "staked": true,
+        "value_usd": 8.54511230172211e-11
+      },
+      {
+        "chain": "base",
+        "current_apr_pct": 3.48,
+        "fees_owed_usd": 1.869289433339705e-13,
+        "in_range": true,
+        "nft_token_id": 75340996,
+        "pair": "WETH/cbBTC",
+        "pending_aero": null,
+        "pending_aero_usd": null,
+        "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "protocol": "slipstream",
+        "staked": true,
+        "value_usd": 1.2392651065634349e-10
+      },
+      {
+        "chain": "base",
+        "current_apr_pct": 2.89,
+        "fees_owed_usd": 1.3773711614082037e-13,
+        "in_range": true,
+        "nft_token_id": 75444571,
+        "pair": "WETH/cbBTC",
+        "pending_aero": null,
+        "pending_aero_usd": null,
+        "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "protocol": "slipstream",
+        "staked": true,
+        "value_usd": 1.4894301437541998e-10
+      },
+      {
+        "chain": "base",
+        "current_apr_pct": 4.11,
+        "fees_owed_usd": 1.1314120254424531e-13,
+        "in_range": true,
+        "nft_token_id": 75460135,
+        "pair": "WETH/cbBTC",
+        "pending_aero": null,
+        "pending_aero_usd": null,
+        "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "protocol": "slipstream",
+        "staked": true,
+        "value_usd": 1.048351625226819e-10
+      },
+      {
+        "chain": "base",
+        "current_apr_pct": 7.28,
+        "fees_owed_usd": 9.100488030732775e-14,
+        "in_range": true,
+        "nft_token_id": 75484445,
+        "pair": "WETH/cbBTC",
+        "pending_aero": null,
+        "pending_aero_usd": null,
+        "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "protocol": "slipstream",
+        "staked": true,
+        "value_usd": 5.915317219976304e-11
+      },
+      {
+        "chain": "base",
+        "current_apr_pct": 5.46,
+        "fees_owed_usd": 9.100488030732775e-14,
+        "in_range": true,
+        "nft_token_id": 75503442,
+        "pair": "WETH/cbBTC",
+        "pending_aero": null,
+        "pending_aero_usd": null,
+        "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "protocol": "slipstream",
+        "staked": true,
+        "value_usd": 7.892582714004974e-11
+      }
+    ],
+    "open_positions_value_usd_total": 5405.809479084381,
+    "pending_aero_usd_total": 0,
+    "pending_approvals": [],
+    "rebalance_plans": [],
+    "suggestions": [
+      {
+        "action": "MINT",
+        "amount_usd": 25.0,
+        "chain": "base",
+        "expected_apr_pct": 43.52,
+        "pool_id": "aero_slipstream_cbbtc_usdc",
+        "tier": "lp_correlated_pair"
+      },
+      {
+        "action": "MINT",
+        "amount_usd": 15.0,
+        "chain": "hyperevm",
+        "expected_apr_pct": 124.44,
+        "pool_id": "prjx_hype_btc",
+        "tier": "lp_alt_correlated"
+      },
+      {
+        "action": "TOP_UP",
+        "amount_usd": 25.0,
+        "chain": "hyperevm",
+        "expected_apr_pct": 124.44,
+        "pool_id": "prjx_hype_btc",
+        "tier": "lp_alt_correlated"
+      },
+      {
+        "action": "MINT",
+        "amount_usd": 15.0,
+        "chain": "hyperevm",
+        "expected_apr_pct": 90.67,
+        "pool_id": "prjx_hype_usdc",
+        "tier": "lp_aggressive_pair"
+      },
+      {
+        "action": "TOP_UP",
+        "amount_usd": 25.0,
+        "chain": "hyperevm",
+        "expected_apr_pct": 90.67,
+        "pool_id": "prjx_hype_usdc",
+        "tier": "lp_aggressive_pair"
+      }
+    ],
+    "top_pools_by_apr": [
+      {
+        "apr_pct": 30.10365160358921,
+        "chain": "hyperevm",
+        "id": "prjx_hype_usdc",
+        "pair": "HYPE/USDC",
+        "protocol": "prjx",
+        "tvl_usd": 18792180.654092174,
+        "verdict": "PASS"
+      },
+      {
+        "apr_pct": 15.537272581197877,
+        "chain": "hyperevm",
+        "id": "prjx_hype_eth",
+        "pair": "HYPE/ETH",
+        "protocol": "prjx",
+        "tvl_usd": 1903818.51,
+        "verdict": null
+      },
+      {
+        "apr_pct": 12.890161264055724,
+        "chain": "hyperevm",
+        "id": "prjx_hype_btc",
+        "pair": "HYPE/BTC",
+        "protocol": "prjx",
+        "tvl_usd": 6640835.71,
+        "verdict": null
+      },
+      {
+        "apr_pct": 6.861346513499769,
+        "chain": "base",
+        "id": "aero_slipstream_cbbtc_usdc",
+        "pair": "cbBTC/USDC",
+        "protocol": "slipstream",
+        "tvl_usd": 5815832.229503,
+        "verdict": null
+      }
+    ],
+    "top_suggestion": {
+      "action": "MINT",
+      "amount_usd": 15.0,
+      "expected_apr_pct": 124.44,
+      "pool_id": "prjx_hype_btc",
+      "rationale": "Tier currently empty. Target $15 of $100 bankroll (per-position cap $25). Top fundable pool: prjx_hype_btc at 124.4% APR.",
+      "tier": "lp_alt_correlated"
+    },
+    "wallet": {
+      "address": "0x0108b8849C83f725EA434C835068c66e5A568482",
+      "balance_usd_total": 5.205211128139809,
+      "balance_usd_usdc_only": 0.400001,
+      "by_chain": {
+        "base": {
+          "n_tokens_ok": 4,
+          "n_tokens_total": 4,
+          "ok": true,
+          "subtotal_usd": 0.6707883524605771,
+          "tokens": {
+            "ETH": {
+              "address": null,
+              "amount": 0.0002728345728489,
+              "decimals": 18,
+              "ok": true,
+              "usd": 0.6707883524605771
+            },
+            "USDC": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "amount": 0.0,
+              "decimals": 6,
+              "ok": true,
+              "usd": 0.0
+            },
+            "WETH": {
+              "address": "0x4200000000000000000000000000000000000006",
+              "amount": 0.0,
+              "decimals": 18,
+              "ok": true,
+              "usd": 0.0
+            },
+            "cbBTC": {
+              "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+              "amount": 0.0,
+              "decimals": 8,
+              "ok": true,
+              "usd": 0.0
+            }
+          }
+        },
+        "hyperevm": {
+          "n_tokens_ok": 3,
+          "n_tokens_total": 3,
+          "ok": true,
+          "subtotal_usd": 4.534422775679232,
+          "tokens": {
+            "HYPE": {
+              "address": null,
+              "amount": 0.04969256941922153,
+              "decimals": 18,
+              "ok": true,
+              "usd": 4.134421775679232
+            },
+            "USDC": {
+              "address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+              "amount": 0.400001,
+              "decimals": 6,
+              "ok": true,
+              "usd": 0.400001
+            },
+            "USDT0": {
+              "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+              "amount": 0.0,
+              "decimals": 6,
+              "ok": true,
+              "usd": 0.0
+            }
+          }
+        }
+      },
+      "prices_usd": {
+        "ETH": 2458.59,
+        "HYPE": 83.2,
+        "USDC": 1.0,
+        "USDT0": 1.0,
+        "WETH": 2459.15,
+        "cbBTC": 78247.0
+      },
+      "tokens_flat": [
+        {
+          "amount": 0.04969256941922153,
+          "chain": "hyperevm",
+          "symbol": "HYPE",
+          "usd": 4.134421775679232
+        },
+        {
+          "amount": 0.0002728345728489,
+          "chain": "base",
+          "symbol": "ETH",
+          "usd": 0.6707883524605771
+        },
+        {
+          "amount": 0.400001,
+          "chain": "hyperevm",
+          "symbol": "USDC",
+          "usd": 0.400001
+        }
+      ],
+      "writer_status": "live"
+    }
+  },
+  "md_ai": {
+    "budget_remaining_usd": 48.82,
+    "cumulative_pnl_usd": 0,
+    "exec_mode": "SHADOW",
+    "kill_armed": true,
+    "kill_threshold_usd": -45.0,
+    "kill_tripped": false,
+    "live_auto": false,
+    "live_manual": false,
+    "max_open_positions": 10,
+    "max_size_usd": 30.0,
+    "mode": "SHADOW",
+    "open_md_ai_count": 0,
+    "recent_fires": [
+      {
+        "asset": null,
+        "msg": "fired NBIS short $20.0",
+        "ok": true,
+        "side": null,
+        "signal_id": "md_ai_2ad3e279",
+        "ts_iso": "2026-06-21T02:42:58.491413+00:00"
+      },
+      {
+        "asset": null,
+        "msg": "fired SMH long $20.0",
+        "ok": true,
+        "side": null,
+        "signal_id": "md_ai_5cf7ccee",
+        "ts_iso": "2026-06-20T22:49:48.301807+00:00"
+      },
+      {
+        "asset": null,
+        "msg": "fired NBIS long $20.0",
+        "ok": true,
+        "side": null,
+        "signal_id": "md_ai_c23d704d",
+        "ts_iso": "2026-06-20T18:18:42.435249+00:00"
+      },
+      {
+        "asset": null,
+        "msg": "fired WDC long $20.0",
+        "ok": true,
+        "side": null,
+        "signal_id": "md_ai_e6d24512",
+        "ts_iso": "2026-06-20T17:18:29.905005+00:00"
+      },
+      {
+        "asset": null,
+        "msg": "fired ETH long $20.0",
+        "ok": true,
+        "side": null,
+        "signal_id": "md_ai_96130f41",
+        "ts_iso": "2026-06-20T15:18:10.946655+00:00"
+      },
+      {
+        "asset": null,
+        "msg": "fired WDC short $20.0",
+        "ok": true,
+        "side": null,
+        "signal_id": "md_ai_312fc295",
+        "ts_iso": "2026-06-20T12:18:34.315635+00:00"
+      },
+      {
+        "asset": null,
+        "msg": "fired WDC long $20.0",
+        "ok": true,
+        "side": null,
+        "signal_id": "md_ai_a77c45fc",
+        "ts_iso": "2026-06-20T11:18:07.784845+00:00"
+      },
+      {
+        "asset": null,
+        "msg": "fired CL long $20.0",
+        "ok": true,
+        "side": null,
+        "signal_id": "md_ai_44d3e2bc",
+        "ts_iso": "2026-06-19T20:15:52.053124+00:00"
+      },
+      {
+        "asset": null,
+        "msg": "fired MSTR long $20.0",
+        "ok": true,
+        "side": null,
+        "signal_id": "md_ai_b2b40129",
+        "ts_iso": "2026-06-19T17:16:19.501468+00:00"
+      },
+      {
+        "asset": null,
+        "msg": "fired SOL long $20.0",
+        "ok": true,
+        "side": null,
+        "signal_id": "md_ai_f571adac",
+        "ts_iso": "2026-06-19T15:21:12.603556+00:00"
+      }
+    ],
+    "recent_signals": [
+      {
+        "asset": "NBIS",
+        "side": "short",
+        "size_usd": "44.05",
+        "ts_iso": "2026-06-21T02:41:09.903674+00:00",
+        "verdict": "PASS"
+      },
+      {
+        "asset": "SMH",
+        "side": "long",
+        "size_usd": "44.08",
+        "ts_iso": "2026-06-20T22:48:14.363299+00:00",
+        "verdict": "PASS"
+      },
+      {
+        "asset": "NBIS",
+        "side": "long",
+        "size_usd": "43.99",
+        "ts_iso": "2026-06-20T18:17:09.138839+00:00",
+        "verdict": "PASS"
+      },
+      {
+        "asset": "WDC",
+        "side": "long",
+        "size_usd": "43.99",
+        "ts_iso": "2026-06-20T17:17:02.107679+00:00",
+        "verdict": "PASS"
+      },
+      {
+        "asset": "ETH",
+        "side": "long",
+        "size_usd": "81.43",
+        "ts_iso": "2026-06-20T15:16:42.934271+00:00",
+        "verdict": "PASS"
+      },
+      {
+        "asset": "ETH",
+        "side": "long",
+        "size_usd": null,
+        "ts_iso": "2026-06-20T14:16:34.428339+00:00",
+        "verdict": "WATCH"
+      },
+      {
+        "asset": "ETH",
+        "side": "long",
+        "size_usd": null,
+        "ts_iso": "2026-06-20T13:16:26.999859+00:00",
+        "verdict": "WATCH"
+      },
+      {
+        "asset": "ETH",
+        "side": "long",
+        "size_usd": null,
+        "ts_iso": "2026-06-20T12:16:46.504076+00:00",
+        "verdict": "WATCH"
+      },
+      {
+        "asset": "WDC",
+        "side": "short",
+        "size_usd": "44.0",
+        "ts_iso": "2026-06-20T12:16:46.504076+00:00",
+        "verdict": "PASS"
+      },
+      {
+        "asset": "ETH",
+        "side": "long",
+        "size_usd": null,
+        "ts_iso": "2026-06-20T11:16:38.750101+00:00",
+        "verdict": "WATCH"
+      }
+    ],
+    "shadow": true,
+    "spent_today_usd": 0.015
+  },
+  "oracle_ai": {
+    "cumulative_pnl_usd": 279.47,
+    "exec_mode": "OFF",
+    "kill_armed": true,
+    "kill_threshold_usd": -15.0,
+    "kill_tripped": false,
+    "live_auto": false,
+    "recent_fires": [
+      {
+        "msg": "open rejected: {'ok': False, 'blocked': 'market_already_held', 'reason': 'Position already open on this market (WILL-BITCOIN-REACH-76K-AUGUST-17-23-2026). The A",
+        "ok": false,
+        "signal_id": "oracle_ai_b2749972",
+        "ts_iso": "2026-08-21T03:40:24.960259+00:00"
+      },
+      {
+        "msg": "fired will-bitcoin-reach-77pt5k-in-august-2026 long $6.8",
+        "ok": true,
+        "signal_id": "oracle_ai_9fb89e30",
+        "ts_iso": "2026-08-21T02:10:28.878515+00:00"
+      },
+      {
+        "msg": "fired will-bitcoin-reach-76k-august-17-23-2026 short $7.2",
+        "ok": true,
+        "signal_id": "oracle_ai_929915b8",
+        "ts_iso": "2026-08-21T00:40:16.719015+00:00"
+      },
+      {
+        "msg": "open rejected: \u274c CIRCUIT BREAKER ACTIVE \u2014 refusing live open.",
+        "ok": false,
+        "signal_id": "oracle_ai_e9304c52",
+        "ts_iso": "2026-08-19T17:08:14.382797+00:00"
+      },
+      {
+        "msg": "STUBBED-P2 (no real order placed)",
+        "ok": true,
+        "signal_id": "oracle_ai_p2accept",
+        "ts_iso": "2026-08-18T10:30:34.147101+00:00"
+      },
+      {
+        "msg": "STUBBED-P2 (no real order placed)",
+        "ok": true,
+        "signal_id": "oracle_ai_p2accept",
+        "ts_iso": "2026-08-18T10:11:16.348876+00:00"
+      },
+      {
+        "msg": "SENTINEL (no real order placed)",
+        "ok": true,
+        "signal_id": "oracle_ai_abstain_control",
+        "ts_iso": "2026-08-11T15:33:48.187386+00:00"
+      },
+      {
+        "msg": "SENTINEL (no real order placed)",
+        "ok": true,
+        "signal_id": "oracle_ai_abstain_probe",
+        "ts_iso": "2026-08-11T15:29:25.408745+00:00"
+      },
+      {
+        "msg": "SENTINEL (no real order placed)",
+        "ok": true,
+        "signal_id": "oracle_ai_abstain_book",
+        "ts_iso": "2026-08-11T15:29:24.968635+00:00"
+      },
+      {
+        "msg": "SENTINEL (no real order placed)",
+        "ok": true,
+        "signal_id": "oracle_ai_abstain_control",
+        "ts_iso": "2026-08-11T15:29:24.451503+00:00"
+      }
+    ],
+    "shadow": false
+  },
+  "polymarket_capital": {
+    "cash_source": "env_override",
+    "cash_usd": 208.0,
+    "equity_usd": 268.8548,
+    "errors": [],
+    "ok": true,
+    "open_positions_count": 9,
+    "open_positions_value_usd": 60.8548,
+    "source": "data-api.polymarket.com",
+    "venue": "polymarket",
+    "wallet": "0x48f570dd255e56a248c1f53f43ce361ecde4b5e0"
+  },
+  "registries": {
+    "carry_open_positions": [],
+    "hlp_vault_position": {
+      "apr_generated_at_iso": "2026-08-30T04:25:00.543333+00:00",
+      "days_since_first_deposit": 106.13,
+      "display_apr_pct": 77.98,
+      "display_apr_source": "realised_lifetime",
+      "equity_usd": 1e-06,
+      "estimate_apr_pct": 25.0,
+      "historical_apr_range_pct": [
+        15.0,
+        40.0
+      ],
+      "historical_max_drawdown_pct": -7.000000000000001,
+      "is_unlocked": true,
+      "locked_until_iso": "2026-05-20T04:51:51.584000+00:00",
+      "net_deposits_usd": -34.01,
+      "period_return_usd": 34.01,
+      "position_fetched_at_iso": "2026-08-30T07:13:12.416344+00:00",
+      "realised_apr_30d_pct": null,
+      "realised_apr_7d_pct": null,
+      "realised_apr_lifetime_pct": 77.98,
+      "vault_address": "0xdfc24b077bc1425ad1dea75bcb6f8158e10df303",
+      "venue": "hyperliquid_vault"
+    },
+    "in_flight_transfers": [],
+    "md_open_positions": [],
+    "oracle_open_positions": [
+      {
+        "entry_price": "0.8171",
+        "id": 85,
+        "mark_error": null,
+        "mark_price": "0.825",
+        "mark_status": "live",
+        "market_slug": "WILL-STEPHEN-LYNCH-BE-THE-DEMOCRATIC-NOMINEE-FOR-MA-08",
+        "needs_close": false,
+        "opened_at_iso": "2026-08-28T23:08:00.321415+00:00",
+        "polymarket_url": "https://polymarket.com/event/WILL-STEPHEN-LYNCH-BE-THE-DEMOCRATIC-NOMINEE-FOR-MA-08",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": 0.9668339248561845,
+        "unrealised_pnl_usd": 0.05801003549137107,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.9039",
+        "id": 84,
+        "mark_error": null,
+        "mark_price": "0.924",
+        "mark_status": "live",
+        "market_slug": "WILL-RICHARD-NEAL-BE-THE-MA-01-DEMOCRATIC-NOMINEE-20260727173754525",
+        "needs_close": false,
+        "opened_at_iso": "2026-08-28T03:37:11.375254+00:00",
+        "polymarket_url": "https://polymarket.com/event/WILL-RICHARD-NEAL-BE-THE-MA-01-DEMOCRATIC-NOMINEE-20260727173754525",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": 2.2236973116495156,
+        "unrealised_pnl_usd": 0.13342183869897095,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.8983",
+        "id": 83,
+        "mark_error": null,
+        "mark_price": "0.895",
+        "mark_status": "live",
+        "market_slug": "US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-SEPTEMBER-15",
+        "needs_close": false,
+        "opened_at_iso": "2026-08-27T18:36:53.589370+00:00",
+        "polymarket_url": "https://polymarket.com/event/US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-SEPTEMBER-15",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": -0.3673605699654914,
+        "unrealised_pnl_usd": -0.022041634197929483,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.8881",
+        "id": 82,
+        "mark_error": null,
+        "mark_price": "0.895",
+        "mark_status": "live",
+        "market_slug": "LAL-REA-MALA-2026-08-30-REA",
+        "needs_close": false,
+        "opened_at_iso": "2026-08-27T17:06:36.447920+00:00",
+        "polymarket_url": "https://polymarket.com/event/LAL-REA-MALA-2026-08-30-REA",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": 0.7769395338362923,
+        "unrealised_pnl_usd": 0.046616372030177544,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.9188",
+        "id": 81,
+        "mark_error": null,
+        "mark_price": "0.915",
+        "mark_status": "live",
+        "market_slug": "WILL-AFD-WIN-THE-MOST-SEATS-IN-THE-2026-MECKLENBURG-VORPOMMERN-PARLIAMENTARY-ELECTIONS",
+        "needs_close": false,
+        "opened_at_iso": "2026-08-23T01:06:26.259714+00:00",
+        "polymarket_url": "https://polymarket.com/event/WILL-AFD-WIN-THE-MOST-SEATS-IN-THE-2026-MECKLENBURG-VORPOMMERN-PARLIAMENTARY-ELECTIONS",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": -0.41358293426207265,
+        "unrealised_pnl_usd": -0.024814976055724358,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.9188",
+        "id": 80,
+        "mark_error": "unknown Polymarket slug 'will-darline-graham-nordone-win-lexington-county-in-the-south-carolina-special-senate-primary-runoff'",
+        "mark_price": null,
+        "mark_status": "market_resolved",
+        "market_slug": "WILL-DARLINE-GRAHAM-NORDONE-WIN-LEXINGTON-COUNTY-IN-THE-SOUTH-CAROLINA-SPECIAL-SENATE-PRIMARY-RUNOFF",
+        "needs_close": true,
+        "opened_at_iso": "2026-08-22T04:05:56.809251+00:00",
+        "polymarket_url": "https://polymarket.com/event/WILL-DARLINE-GRAHAM-NORDONE-WIN-LEXINGTON-COUNTY-IN-THE-SOUTH-CAROLINA-SPECIAL-SENATE-PRIMARY-RUNOFF",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": null,
+        "unrealised_pnl_usd": null,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.9907",
+        "id": 79,
+        "mark_error": "unknown Polymarket slug 'us-x-iran-ceasefire-continues-through-august-25'",
+        "mark_price": null,
+        "mark_status": "market_resolved",
+        "market_slug": "US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-AUGUST-25",
+        "needs_close": true,
+        "opened_at_iso": "2026-08-22T01:05:45.523936+00:00",
+        "polymarket_url": "https://polymarket.com/event/US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-AUGUST-25",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": null,
+        "unrealised_pnl_usd": null,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.9823",
+        "id": 78,
+        "mark_error": null,
+        "mark_price": "0.97",
+        "mark_status": "live",
+        "market_slug": "WILL-ALIBABA-HAVE-THE-BEST-CHINESE-AI-MODEL-AT-THE-END-OF-AUGUST-2026-20260717004241593",
+        "needs_close": false,
+        "opened_at_iso": "2026-08-22T01:05:37.905924+00:00",
+        "polymarket_url": "https://polymarket.com/event/WILL-ALIBABA-HAVE-THE-BEST-CHINESE-AI-MODEL-AT-THE-END-OF-AUGUST-2026-20260717004241593",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": -1.2521632902371995,
+        "unrealised_pnl_usd": -0.07512979741423198,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.9807",
+        "id": 77,
+        "mark_error": "unknown Polymarket slug 'bitcoin-above-74k-on-august-24-2026'",
+        "mark_price": null,
+        "mark_status": "market_resolved",
+        "market_slug": "BITCOIN-ABOVE-74K-ON-AUGUST-24-2026",
+        "needs_close": true,
+        "opened_at_iso": "2026-08-22T01:05:30.514455+00:00",
+        "polymarket_url": "https://polymarket.com/event/BITCOIN-ABOVE-74K-ON-AUGUST-24-2026",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": null,
+        "unrealised_pnl_usd": null,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.9398",
+        "id": 76,
+        "mark_error": null,
+        "mark_price": "0.885",
+        "mark_status": "live",
+        "market_slug": "WILL-DAN-KOH-BE-THE-DEMOCRATIC-NOMINEE-FOR-MA-06",
+        "needs_close": false,
+        "opened_at_iso": "2026-08-21T19:05:18.448157+00:00",
+        "polymarket_url": "https://polymarket.com/event/WILL-DAN-KOH-BE-THE-DEMOCRATIC-NOMINEE-FOR-MA-06",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": -5.831027878271966,
+        "unrealised_pnl_usd": -0.34986167269631796,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.9292",
+        "id": 75,
+        "mark_error": null,
+        "mark_price": "0.855",
+        "mark_status": "live",
+        "market_slug": "WILL-MAGDALENA-ANDERSSON-BE-THE-NEXT-PRIME-MINISTER-OF-SWEDEN",
+        "needs_close": false,
+        "opened_at_iso": "2026-08-21T19:05:10.960857+00:00",
+        "polymarket_url": "https://polymarket.com/event/WILL-MAGDALENA-ANDERSSON-BE-THE-NEXT-PRIME-MINISTER-OF-SWEDEN",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": -7.985363753766676,
+        "unrealised_pnl_usd": -0.47912182522600055,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.9188",
+        "id": 74,
+        "mark_error": null,
+        "mark_price": "0.9875",
+        "mark_status": "live",
+        "market_slug": "US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-AUGUST-31",
+        "needs_close": false,
+        "opened_at_iso": "2026-08-21T19:05:03.174100+00:00",
+        "polymarket_url": "https://polymarket.com/event/US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-AUGUST-31",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": 7.477144101001325,
+        "unrealised_pnl_usd": 0.44862864606007946,
+        "venue": "polymarket"
+      },
+      {
+        "entry_price": "0.8400",
+        "id": 73,
+        "mark_error": "unknown Polymarket slug 'bitcoin-above-74k-on-august-27-2026'",
+        "mark_price": null,
+        "mark_status": "market_resolved",
+        "market_slug": "BITCOIN-ABOVE-74K-ON-AUGUST-27-2026",
+        "needs_close": true,
+        "opened_at_iso": "2026-08-21T19:04:55.827556+00:00",
+        "polymarket_url": "https://polymarket.com/event/BITCOIN-ABOVE-74K-ON-AUGUST-27-2026",
+        "resolution_at_iso": null,
+        "side": "long",
+        "side_label": "YES",
+        "size_usd": "6.0",
+        "sl_price": null,
+        "strategy_id": "oracle_flb_fav",
+        "tp_price": null,
+        "unrealised_pnl_pct": null,
+        "unrealised_pnl_usd": null,
+        "venue": "polymarket"
+      }
+    ],
+    "spot_sweeps_done": []
+  },
+  "risk": {
+    "circuit_breaker": {
+      "active": true,
+      "daily_loss_usd": null,
+      "gated_by": "portfolio-master",
+      "reason": "auto: hyperliquid margin at 85.1% (CRITICAL >85%) \u2014 liquidation risk on at least one venue",
+      "triggered_at": "2026-08-09T11:08:40.183529+00:00",
+      "triggered_by": "auto"
+    },
+    "daily_pnl": {
+      "baseline_usd": "6444.46",
+      "circuit_breaker_triggered": false,
+      "daily_pnl_pct": -0.6632052957113552,
+      "daily_pnl_usd": -42.74,
+      "date": "2026-08-02",
+      "nav_usd": "6401.72",
+      "threshold_pct": -5.0,
+      "ts_iso": "2026-08-02T11:26:30.452947+00:00"
+    },
+    "generated_at_iso": "2026-08-30T07:16:11.053956+00:00",
+    "margin_last_fired": [],
+    "margin_tiers": [
+      {
+        "ok": true,
+        "pct": 97.3978410535013,
+        "tier": "CRITICAL",
+        "venue": "hyperliquid"
+      },
+      {
+        "ok": false,
+        "pct": 0.0,
+        "tier": "OK",
+        "venue": "grvt"
+      },
+      {
+        "ok": true,
+        "pct": 0.0,
+        "tier": "UNKNOWN (adapter has no get_margin_summary)",
+        "venue": "extended"
+      },
+      {
+        "ok": true,
+        "pct": 0.0,
+        "tier": "OK",
+        "venue": "pacifica"
+      }
+    ],
+    "margin_ts_iso": "2026-08-30T07:14:43.149268+00:00",
+    "paused_strategies": {},
+    "strategy_graduation": [
+      {
+        "expectancy_usd": -0.11693739660927703,
+        "graduation_status": "needs_more_data",
+        "profit_factor": 0.032347220931361345,
+        "strategy_id": "setup_sc",
+        "total_pnl_usd": -0.7016243796556623,
+        "trades": 6,
+        "win_rate": 0.5
+      }
+    ],
+    "worst_ev_per_venue": {
+      "grvt": null,
+      "hyperliquid": null,
+      "pacifica": null
+    }
+  },
+  "schema_version": "0.5.2",
+  "sections": {
+    "carry_lifecycle": {
+      "age_sec": 7901376.859400034,
+      "data": {
+        "closed_this_tick": 0,
+        "dry_run": false,
+        "elapsed_sec": 7.58,
+        "generated_at_iso": "2026-05-30T20:26:28.586203+00:00",
+        "open_pairs_before": 0,
+        "results": []
+      },
+      "path": "/Users/yomioguntona/baba/wealth-ecosystem/engine/_signals/carry_lifecycle_latest.json"
+    },
+    "carry_report": {
+      "age_sec": 8865918.858143091,
+      "data": {
+        "closed_pairs": [],
+        "closed_pairs_count": 0,
+        "generated_at_iso": "2026-05-19T16:30:53.047539+00:00",
+        "open_pairs": [
+          {
+            "age_hours": 0.23,
+            "asset": "SOL",
+            "capital_deployed_usd": "30.0",
+            "funding_apr_target_pct": 50.0,
+            "long": {
+              "entry_price": "84.205",
+              "mark_price": "84.350713",
+              "mtm_pnl_usd": "0.02595683154206994834035983612",
+              "size_usd": "15.0",
+              "venue": "pacifica",
+              "venue_order_id": "8741375354"
+            },
+            "note": "MTM PnL is price-only \u2014 funding accrual not yet computed. In CARRY, MTM near zero is expected; funding is the profit driver. Phase 2 wires funding-rate accrual into this report.",
+            "pair_id": "carry-1779207427-a04c6d8c",
+            "pair_mtm_pnl_usd": "0.00102184062553092507957545255",
+            "short": {
+              "entry_price": "84.219",
+              "mark_price": "84.359",
+              "mtm_pnl_usd": "-0.02493499091653902326078438357",
+              "size_usd": "15.0",
+              "venue": "hyperliquid",
+              "venue_order_id": "hl:433229019000"
+            },
+            "status": "open"
+          }
+        ],
+        "open_pairs_count": 1,
+        "schema_version": 1,
+        "total_capital_deployed_usd": "30.0",
+        "total_closed_realized_pnl_usd": "0",
+        "total_open_mtm_pnl_usd": "0.00102184062553092507957545255"
+      },
+      "path": "/Users/yomioguntona/baba/wealth-ecosystem/engine/_reports/carry_latest.json"
+    },
+    "carry_scanner": {
+      "age_sec": 1689.6934514045715,
+      "data": {
+        "alerted": [],
+        "elapsed_sec": 9.96,
+        "generated_at_iso": "2026-08-30T06:47:53.205689+00:00",
+        "stats": {
+          "after_open_dedup": 0,
+          "after_queue_dedup": 0,
+          "alerted": 0,
+          "raw_opportunities": 0
+        }
+      },
+      "path": "/Users/yomioguntona/baba/wealth-ecosystem/engine/_signals/carry_latest_digest.json"
+    },
+    "engine_audit": {
+      "age_sec": 13557.087969064713,
+      "data": {
+        "ai_spend_tier": {
+          "current": 3,
+          "new_tier_if_promoted": null,
+          "promotion_just_happened": false,
+          "reason": "already at max tier",
+          "settings": {
+            "cadence_min": 30,
+            "cap_per_pillar_usd": 3.0,
+            "name": "PROVEN",
+            "promotion_criteria": "\u2014"
+          }
+        },
+        "carry_report": {
+          "closed_pairs": [
+            {
+              "asset": "WLD",
+              "closed_at": "2026-05-21T13:48:10.227052+00:00",
+              "legs": {
+                "long": {
+                  "close_price": "0",
+                  "entry_price": "0.23964",
+                  "realized_pnl_usd": null,
+                  "size_usd": "25.0",
+                  "venue": "hyperliquid"
+                },
+                "short": {
+                  "close_price": "0.2578",
+                  "entry_price": "0.2396",
+                  "realized_pnl_usd": null,
+                  "size_usd": "25.0",
+                  "venue": "pacifica"
+                }
+              },
+              "opened_at": "2026-05-20T05:48:21.959881+00:00",
+              "pair_id": "carry-1779256095-0d4fcef5",
+              "total_realized_pnl_usd": "0"
+            },
+            {
+              "asset": "HYPE",
+              "closed_at": "2026-05-21T03:13:11.448811+00:00",
+              "legs": {
+                "long": {
+                  "close_price": "0",
+                  "entry_price": "51.6",
+                  "realized_pnl_usd": null,
+                  "size_usd": "25.0",
+                  "venue": "hyperliquid"
+                },
+                "short": {
+                  "close_price": "56.179000000",
+                  "entry_price": "51.376000000",
+                  "realized_pnl_usd": "-2.337180784802242292120834631",
+                  "size_usd": "25.0",
+                  "venue": "grvt"
+                }
+              },
+              "opened_at": "2026-05-20T18:57:29.407858+00:00",
+              "pair_id": "carry-1779303442-f2978fc9",
+              "total_realized_pnl_usd": "-2.337180784802242292120834631"
+            },
+            {
+              "asset": "SOL",
+              "closed_at": "2026-05-19T16:31:25.179793+00:00",
+              "legs": {
+                "long": {
+                  "close_price": "0",
+                  "entry_price": "84.205",
+                  "realized_pnl_usd": null,
+                  "size_usd": "15.0",
+                  "venue": "pacifica"
+                },
+                "short": {
+                  "close_price": "0",
+                  "entry_price": "84.219",
+                  "realized_pnl_usd": null,
+                  "size_usd": "15.0",
+                  "venue": "hyperliquid"
+                }
+              },
+              "opened_at": "2026-05-19T16:17:13.728628+00:00",
+              "pair_id": "carry-1779207427-a04c6d8c",
+              "total_realized_pnl_usd": "0"
+            }
+          ],
+          "closed_pairs_count": 3,
+          "generated_at_iso": "2026-08-30T03:30:15.445684+00:00",
+          "open_pairs": [],
+          "open_pairs_count": 0,
+          "schema_version": 1,
+          "total_capital_deployed_usd": "0",
+          "total_closed_realized_pnl_usd": "-2.337180784802242292120834631",
+          "total_open_mtm_pnl_usd": "0"
+        },
+        "concerns_for_yomi": [
+          "audit-worker_liveness: md_ai_auto_exec stale 71145min \u2014 bootstrap failed: rc=5 stderr=Bootstrap failed: 5: Input/output error\nTry re-running the command a",
+          "md pillar RED: Catastrophic 35% win rate, -$78 cumulative loss across 276 trades. Systematic directional bias failures and data integrity issues.",
+          "md: Data integrity: 29 trades (10.5%) have null close_price/realized_pnl - suggests venue connectivity or order execution issues",
+          "md: Systematic null closes on commodities (CL, BRENTOIL) and indices (SKHX, NBIS, SILVER, DRAM) - pattern suggests asset-class-specific problems",
+          "md: Win rate 35% vs 65% loss rate indicates directional bias or signal quality degradation",
+          "md: Recent micro-trades (IDs 276, 275, 274, 272, 273) show $0.01-$0.007 wins on $10-15 positions - suggests desperation scalping after losses",
+          "md: TIA trade (ID 271) held 2 days, lost 7.2% - contradicts short-duration pattern of other trades",
+          "md: Cumulative loss of -$78 on 276 trades = -$0.28 per trade average - unsustainable economics",
+          "\ud83e\uddee ORACLE orphan: BITCOIN-ABOVE-74K-ON-AUGUST-24-2026 long $6.0 \u2014 registry-OPEN but not on Polymarket",
+          "\ud83e\uddee ORACLE orphan: BITCOIN-ABOVE-74K-ON-AUGUST-27-2026 long $6.0 \u2014 registry-OPEN but not on Polymarket",
+          "\ud83e\uddee ORACLE orphan: US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-AU long $6.0 \u2014 registry-OPEN but not on Polymarket",
+          "\ud83e\uddee Size mismatch on US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-SE: reg=None vs pm=13.4082 (+50.2%) \u2014 possible duplicate fire"
+        ],
+        "deterministic_audit": {
+          "actionable_summary": [
+            "[CRITICAL] worker_liveness: md_ai_auto_exec stale 71145min \u2014 bootstrap failed: rc=5 stderr=Bootstrap failed: 5: Input/output error\nTry re-running th",
+            "[NEEDS_APPROVAL] registry_venue_reconcile: ORACLE drift=4 (REGISTRY_ONLY=4, VENUE_ONLY=0) \u2014 run `python -m engine.audit.oracle_venue_reconciler` to review; --auto-",
+            "[NEEDS_APPROVAL] oracle_extra_held: oracle_extra_held.json: 8 keywords + 8 slugs (updated 88d ago) \u2014 DATA-1 reconciler still needed"
+          ],
+          "n_actionable": 3,
+          "n_findings": 11,
+          "overall": "RED"
+        },
+        "engine_version": "v0.3.6",
+        "generated_at_iso": "2026-08-30T03:30:03.543484+00:00",
+        "oracle_reconcile": {
+          "errors": [],
+          "orphans": 4,
+          "polymarket_positions": 9,
+          "registry_open": 13,
+          "size_diffs": 1
+        },
+        "pillars": {
+          "md": {
+            "concerns_for_yomi": [
+              "Data integrity: 29 trades (10.5%) have null close_price/realized_pnl - suggests venue connectivity or order execution issues",
+              "Systematic null closes on commodities (CL, BRENTOIL) and indices (SKHX, NBIS, SILVER, DRAM) - pattern suggests asset-class-specific problems",
+              "Win rate 35% vs 65% loss rate indicates directional bias or signal quality degradation",
+              "Recent micro-trades (IDs 276, 275, 274, 272, 273) show $0.01-$0.007 wins on $10-15 positions - suggests desperation scalping after losses",
+              "TIA trade (ID 271) held 2 days, lost 7.2% - contradicts short-duration pattern of other trades",
+              "Cumulative loss of -$78 on 276 trades = -$0.28 per trade average - unsustainable economics"
+            ],
+            "losing_patterns": [
+              "TIA long lost -0.72 USD (7.2% drawdown on $10 position)",
+              "SPX long lost -0.75 USD (3.8% drawdown on $20 position)",
+              "VVV short lost -0.76 USD (5.7% drawdown on $20 position)",
+              "SOL long lost -0.47 USD (2.4% drawdown on $20 position)",
+              "BTC long lost -0.33 USD (1.7% drawdown on $20 position)",
+              "SPX short lost -0.62 USD (3.1% drawdown on $20 position)",
+              "ETH short lost -0.04 USD (0.2% drawdown on $20 position)",
+              "GOLD long lost -0.007 USD (0.07% drawdown on $10 position)",
+              "MSFT long lost -0.0008 USD (0.008% drawdown on $10 position)",
+              "NBIS short lost -0.015 USD (0.08% drawdown on $20 position)"
+            ],
+            "raw_stats": {
+              "closed_count": 276,
+              "losers": 144,
+              "open_count": 0,
+              "pillar": "md",
+              "total_pnl_usd": -78.09270956479678,
+              "win_rate": 0.35144927536231885,
+              "winners": 97
+            },
+            "score": 2,
+            "severity": "RED",
+            "sizing_recommendations": [
+              "Reduce all position sizes by 50% until win rate exceeds 45%",
+              "Eliminate commodity longs (CL, BRENTOIL, SILVER) - 11 consecutive null closes suggest execution failures",
+              "Cap single trade risk at 0.5% of account (currently averaging 1-2%)",
+              "Halt short positions on SKHX, NBIS, DRAM - multiple null closes indicate signal degradation",
+              "Reduce XYZ index exposure (MSFT, JP225, GOLD) - micro-pip wins ($0.01) indicate over-leveraged scalping"
+            ],
+            "summary": "Catastrophic 35% win rate, -$78 cumulative loss across 276 trades. Systematic directional bias failures and data integrity issues.",
+            "tier_used": "tier3_anthropic_paid"
+          }
+        }
+      },
+      "path": "/Users/yomioguntona/baba/wealth-ecosystem/engine/_audit_runs/scheduled_latest.json"
+    },
+    "lp_agile": {
+      "age_sec": 430.6967649459839,
+      "data": {
+        "complete": true,
+        "config": {
+          "auto_execute_enabled": true,
+          "per_position_max_usd": 10.0,
+          "start_chain": "base",
+          "start_pool": "aero_slipstream_cbbtc_usdc",
+          "target_apr_pct": 100.0,
+          "total_bankroll_usd": 30.0,
+          "wallet_address": "0x0108b8849C83f725EA434C835068c66e5A568482"
+        },
+        "generated_at_iso": "2026-08-30T07:09:02.161221+00:00",
+        "ledger_summary": {
+          "n_positions_ever": 2,
+          "total_benefits_usd": 0.0,
+          "total_gas_usd": 0.01173153456,
+          "total_net_pnl_usd": -0.01173153456,
+          "total_other_costs_usd": 0.0
+        },
+        "missing_chains": [],
+        "open_positions": [
+          {
+            "chain": "hyperevm",
+            "current_apr_pct": 44.85,
+            "emissions_apr_pct": null,
+            "fee_apr_pct": 44.85,
+            "fee_read_ok": true,
+            "fee_treatment": "earned",
+            "fees_owed_usd": 0.0,
+            "in_range": true,
+            "nft_token_id": 538175,
+            "pair": "WHYPE/UBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x0D6ECB912b6ee160e95Bc198b618Acc1bCb92525",
+            "pool_price_now": 0.0010628271112962306,
+            "protocol": "prjx",
+            "range_high": 0.001128734179329945,
+            "range_low": 0.0009891625619102868,
+            "staked": false,
+            "staked_in_gauge": null,
+            "value_read_ok": true,
+            "value_usd": 2068.411464203152
+          },
+          {
+            "chain": "hyperevm",
+            "current_apr_pct": 67.85,
+            "emissions_apr_pct": null,
+            "fee_apr_pct": 67.85,
+            "fee_read_ok": true,
+            "fee_treatment": "earned",
+            "fees_owed_usd": 0.044518826056963785,
+            "in_range": true,
+            "nft_token_id": 540409,
+            "pair": "WHYPE/USDC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x6c9A33E3b592C0d65B3Ba59355d5Be0d38259285",
+            "pool_price_now": 83.30116816796843,
+            "protocol": "prjx",
+            "range_high": 87.72254524973127,
+            "range_low": 77.18347180485597,
+            "staked": false,
+            "staked_in_gauge": null,
+            "value_read_ok": true,
+            "value_usd": 3018.7373750783822
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 8.21,
+            "emissions_apr_pct": 8.21,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 2.336611791674631e-13,
+            "in_range": true,
+            "nft_token_id": 75249609,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.03395128221026593,
+            "range_low": 0.028931605699408523,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 5.249505838917017e-11
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 4.38,
+            "emissions_apr_pct": 4.38,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 1.500350729391079e-13,
+            "in_range": true,
+            "nft_token_id": 75387198,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.03641290049770163,
+            "range_low": 0.02697574476273202,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 9.840579070853719e-11
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 5.04,
+            "emissions_apr_pct": 5.04,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 2.238228137288331e-13,
+            "in_range": true,
+            "nft_token_id": 75302686,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.03569191244861343,
+            "range_low": 0.02697574476273202,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 8.54511230172211e-11
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 3.48,
+            "emissions_apr_pct": 3.48,
+            "fee_apr_pct": 0.0,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 1.869289433339705e-13,
+            "in_range": true,
+            "nft_token_id": 75340996,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.03789886336485335,
+            "range_low": 0.02490185054699483,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 1.2392651065634349e-10
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 2.89,
+            "emissions_apr_pct": 2.89,
+            "fee_apr_pct": 0.0,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 1.3773711614082037e-13,
+            "in_range": true,
+            "nft_token_id": 75444571,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.03944546643403163,
+            "range_low": 0.024165925886868923,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 1.4894301437541998e-10
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 4.11,
+            "emissions_apr_pct": 4.11,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 1.1314120254424531e-13,
+            "in_range": true,
+            "nft_token_id": 75460135,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.03677883784352503,
+            "range_low": 0.02697574476273202,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 1.048351625226819e-10
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 7.28,
+            "emissions_apr_pct": 7.28,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 9.100488030732775e-14,
+            "in_range": true,
+            "nft_token_id": 75484445,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.03429248112409896,
+            "range_low": 0.028358749880039717,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 5.915317219976304e-11
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": null,
+            "emissions_apr_pct": null,
+            "fee_apr_pct": null,
+            "fee_read_ok": true,
+            "fee_treatment": "earned",
+            "fees_owed_usd": 0.0,
+            "in_range": true,
+            "nft_token_id": 75208794,
+            "pair": "USDC/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+            "pool_price_now": 1.277584129755854e-05,
+            "protocol": "slipstream",
+            "range_high": 1.3608170031457322e-05,
+            "range_low": 1.2190730277461416e-05,
+            "staked": false,
+            "staked_in_gauge": null,
+            "value_read_ok": true,
+            "value_usd": 0.0
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": null,
+            "emissions_apr_pct": null,
+            "fee_apr_pct": null,
+            "fee_read_ok": true,
+            "fee_treatment": "earned",
+            "fees_owed_usd": 0.0,
+            "in_range": true,
+            "nft_token_id": 75500677,
+            "pair": "USDC/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+            "pool_price_now": 1.277584129755854e-05,
+            "protocol": "slipstream",
+            "range_high": 1.3074612199868494e-05,
+            "range_low": 1.1712748330051106e-05,
+            "staked": false,
+            "staked_in_gauge": null,
+            "value_read_ok": true,
+            "value_usd": 0.0
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 5.46,
+            "emissions_apr_pct": 5.46,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 9.100488030732775e-14,
+            "in_range": true,
+            "nft_token_id": 75503442,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.035336789653152234,
+            "range_low": 0.026707344970381824,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 7.892582714004974e-11
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 9.41,
+            "emissions_apr_pct": 9.41,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 8.854528894767024e-14,
+            "in_range": true,
+            "nft_token_id": 75522285,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.0336134781134594,
+            "range_low": 0.028643745733710486,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 4.5804969890901746e-11
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 4.38,
+            "emissions_apr_pct": 4.38,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 7.870692350904021e-14,
+            "in_range": true,
+            "nft_token_id": 75547215,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.03641290049770163,
+            "range_low": 0.02617853028428626,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 9.840579070853719e-11
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 9.41,
+            "emissions_apr_pct": 9.41,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 7.870692350904021e-14,
+            "in_range": true,
+            "nft_token_id": 75572736,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.0336134781134594,
+            "range_low": 0.028358749880039717,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 4.5804969890901746e-11
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 3.87,
+            "emissions_apr_pct": 3.87,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 7.870692350904021e-14,
+            "in_range": true,
+            "nft_token_id": 75588592,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.03714845273602111,
+            "range_low": 0.02490185054699483,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 1.1123010005779142e-10
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 3.73,
+            "emissions_apr_pct": 3.73,
+            "fee_apr_pct": 0.01,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 0.05670798825157055,
+            "in_range": true,
+            "nft_token_id": 75616840,
+            "pair": "WETH/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+            "pool_price_now": 0.031430469103028644,
+            "protocol": "slipstream",
+            "range_high": 0.03395128221026593,
+            "range_low": 0.028643745733710486,
+            "staked": true,
+            "staked_in_gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+            "value_read_ok": true,
+            "value_usd": 92.74597552358806
+          },
+          {
+            "chain": "base",
+            "current_apr_pct": 40.99,
+            "emissions_apr_pct": 40.99,
+            "fee_apr_pct": 11.33,
+            "fee_read_ok": true,
+            "fee_treatment": "routed_to_voters",
+            "fees_owed_usd": 1.0348644843221213,
+            "in_range": true,
+            "nft_token_id": 75633679,
+            "pair": "USDC/cbBTC",
+            "pending_aero": null,
+            "pending_aero_usd": null,
+            "pool_address": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+            "pool_price_now": 1.277584129755854e-05,
+            "protocol": "slipstream",
+            "range_high": 1.347277321321061e-05,
+            "range_low": 1.2069436518796101e-05,
+            "staked": true,
+            "staked_in_gauge": "0x6399ed6725cC163D019aA64FF55b22149D7179A8",
+            "value_read_ok": true,
+            "value_usd": 225.9146642782048
+          }
+        ],
+        "ranked_pools": [
+          {
+            "chain": "hyperevm",
+            "current_price_usd": 83.30820939903512,
+            "fee_apr_pct": 30.10365160358921,
+            "fee_tier_bps": 5,
+            "id": "prjx_hype_usdc",
+            "is_top": true,
+            "pair": "HYPE/USDC",
+            "pool_address": "0x6c9A33E3b592C0d65B3Ba59355d5Be0d38259285",
+            "protocol": "prjx",
+            "rationale": "fee APR 30.1% \u00b7 TVL $18,792,181 \u00b7 vol/TVL 1.00 \u00b7 class=native_stable \u2192 dominant: il_penalty",
+            "score": 0.13123566954545235,
+            "tvl_usd": 18792180.654092174,
+            "verdict": "PASS",
+            "verdict_reasoning": "No news, no AI \u2014 rule-PASS",
+            "verdict_tier": "rule_fallback",
+            "volume_24h_usd": 30997986.81
+          },
+          {
+            "chain": "hyperevm",
+            "current_price_usd": 2466.35,
+            "fee_apr_pct": 15.537272581197877,
+            "fee_tier_bps": 30,
+            "id": "prjx_hype_eth",
+            "is_top": false,
+            "pair": "HYPE/ETH",
+            "pool_address": "0xaf80230eB13222DB743C21762f65A046bb5F5437",
+            "protocol": "prjx",
+            "rationale": "fee APR 15.5% \u00b7 TVL $1,903,819 \u00b7 vol/TVL 0.14 \u00b7 class=major_major \u2192 dominant: tvl_depth",
+            "score": 0.0792964270840985,
+            "tvl_usd": 1903818.51,
+            "verdict": null,
+            "verdict_reasoning": null,
+            "verdict_tier": null,
+            "volume_24h_usd": 270138.33
+          },
+          {
+            "chain": "hyperevm",
+            "current_price_usd": 78398.45,
+            "fee_apr_pct": 12.890161264055724,
+            "fee_tier_bps": 30,
+            "id": "prjx_hype_btc",
+            "is_top": false,
+            "pair": "HYPE/BTC",
+            "pool_address": "0x0D6ECB912b6ee160e95Bc198b618Acc1bCb92525",
+            "protocol": "prjx",
+            "rationale": "fee APR 12.9% \u00b7 TVL $6,640,836 \u00b7 vol/TVL 0.12 \u00b7 class=major_major \u2192 dominant: tvl_depth",
+            "score": 0.07572010476556765,
+            "tvl_usd": 6640835.71,
+            "verdict": null,
+            "verdict_reasoning": null,
+            "verdict_tier": null,
+            "volume_24h_usd": 781748.34
+          },
+          {
+            "chain": "base",
+            "current_price_usd": 78272.73184671601,
+            "fee_apr_pct": 6.861346513499769,
+            "fee_tier_bps": 3,
+            "id": "aero_slipstream_cbbtc_usdc",
+            "is_top": false,
+            "pair": "cbBTC/USDC",
+            "pool_address": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+            "protocol": "slipstream",
+            "rationale": "fee APR 6.9% \u00b7 TVL $5,815,832 \u00b7 vol/TVL 0.94 \u00b7 class=native_stable \u2192 dominant: il_penalty",
+            "score": 0.04913273604376181,
+            "tvl_usd": 5815832.229503,
+            "verdict": null,
+            "verdict_reasoning": null,
+            "verdict_tier": null,
+            "volume_24h_usd": 5466361.67
+          }
+        ],
+        "scan_errors": [],
+        "strategy_id": "lp_agile_subscriber_v1"
+      },
+      "path": "/Users/yomioguntona/baba/wealth-ecosystem/ops/pwa/serve/lp_agile_latest.json"
+    },
+    "md_lifecycle": {
+      "age_sec": 232.92177391052246,
+      "data": {
+        "closed_this_tick": 0,
+        "dry_run": false,
+        "elapsed_sec": 0.0,
+        "generated_at_iso": "2026-08-30T07:12:19.935424+00:00",
+        "open_count_before": 0,
+        "results": [],
+        "total_pnl_this_tick_usd": "0"
+      },
+      "path": "/Users/yomioguntona/baba/wealth-ecosystem/engine/_signals/md_lifecycle_latest.json"
+    },
+    "md_scanner": {
+      "age_sec": 26.62650179862976,
+      "data": {
+        "alerted_signals": [],
+        "elapsed_sec": 103.78,
+        "generated_at_iso": "2026-08-30T07:14:02.455181+00:00",
+        "stats": {
+          "after_carry_dedup": 9,
+          "after_combine": 9,
+          "after_cross_tick_opposite": 9,
+          "after_intra_batch_dedup": 0,
+          "after_opposite_resolve": 9,
+          "after_position_dedup": 9,
+          "after_queue_dedup": 0,
+          "after_user_skip_suppress": 0,
+          "ai_judge": {
+            "blocked": 0,
+            "pass": 0,
+            "unavailable": 0,
+            "watch": 0
+          },
+          "alertable_total": 0,
+          "alerted": 0,
+          "carry_dedup_assets": [],
+          "cross_tick_opposite_dropped": [],
+          "intra_batch_dropped": 0,
+          "opposite_conflicts": [],
+          "regime_filter": {
+            "allow": 0,
+            "block": 0,
+            "shadow_block": 0
+          },
+          "total_emitted": 9,
+          "user_skip_count": 0
+        }
+      },
+      "path": "/Users/yomioguntona/baba/wealth-ecosystem/engine/_signals/md_latest_digest.json"
+    },
+    "oracle_scanner": {
+      "age_sec": 1436.4051270484924,
+      "data": {
+        "alerted_signals": [],
+        "elapsed_sec": 35.43,
+        "generated_at_iso": "2026-08-30T06:51:41.022414+00:00",
+        "stats": {
+          "after_intra_batch_dedup": 0,
+          "after_position_dedup": 0,
+          "after_queue_dedup": 0,
+          "ai_judge": {
+            "blocked": 0,
+            "pass": 0,
+            "unavailable": 0,
+            "watch": 0
+          },
+          "alerted": 0,
+          "intra_batch_dropped": 0,
+          "total_emitted": 0
+        }
+      },
+      "path": "/Users/yomioguntona/baba/wealth-ecosystem/engine/_signals/oracle_latest_digest.json"
+    },
+    "oracle_shadow": {
+      "age_sec": 8830751.85973692,
+      "data": {
+        "elapsed_sec": 0.04,
+        "generated_at_iso": "2026-05-20T02:17:01.387475+00:00",
+        "mode": "shadow",
+        "picks": [],
+        "picks_alerted": 0,
+        "picks_found": 0,
+        "snapshot_age_sec": null,
+        "snapshot_source": null
+      },
+      "path": "/Users/yomioguntona/baba/wealth-ecosystem/engine/_signals/oracle_shadow_latest.json"
+    },
+    "treasury": {
+      "age_sec": 1269.5238184928894,
+      "data": {
+        "buckets": [
+          {
+            "actual_pct": "93.26",
+            "delta_usd": "1926.07",
+            "drift_pct": "33.26",
+            "equity_usd": "5400.3137129428750489",
+            "flag": "OVER",
+            "free_usd": "0.6709845999230489",
+            "name": "lp",
+            "note": "",
+            "target_pct": "60"
+          },
+          {
+            "actual_pct": "5.39",
+            "delta_usd": "-1135.50",
+            "drift_pct": "-19.61",
+            "equity_usd": "312.100361",
+            "flag": "UNDER",
+            "free_usd": "8.378459",
+            "name": "md_ai",
+            "note": "",
+            "target_pct": "25"
+          },
+          {
+            "actual_pct": "1.35",
+            "delta_usd": "-790.56",
+            "drift_pct": "-13.65",
+            "equity_usd": "78.0",
+            "flag": "UNDER",
+            "free_usd": "0",
+            "name": "oracle",
+            "note": "",
+            "target_pct": "15"
+          },
+          {
+            "actual_pct": "0.00",
+            "delta_usd": "0.00",
+            "drift_pct": "0.00",
+            "equity_usd": "0",
+            "flag": "",
+            "free_usd": "0",
+            "name": "pacifica",
+            "note": "",
+            "target_pct": "0"
+          },
+          {
+            "actual_pct": "0.00",
+            "delta_usd": "0.00",
+            "drift_pct": "0.00",
+            "equity_usd": "0",
+            "flag": "",
+            "free_usd": "0",
+            "name": "grvt",
+            "note": "UNREACHABLE \u2014 margin summary failed",
+            "target_pct": "0"
+          },
+          {
+            "actual_pct": "0.00",
+            "delta_usd": "0.00",
+            "drift_pct": "0.00",
+            "equity_usd": "0.000001",
+            "flag": "",
+            "free_usd": "0.000001",
+            "name": "hlp_vault",
+            "note": "DEPRECATED \u2014 withdraw if non-zero",
+            "target_pct": "0"
+          }
+        ],
+        "drift_band_pct": "10",
+        "elapsed_sec": 0.9,
+        "generated_at_iso": "2026-08-30T06:55:02.437075+00:00",
+        "rebalance_suggestions": [
+          "lp is +33.3% above target \u2014 trim $1926.07 to LP via bridge",
+          "md_ai is -19.6% below target \u2014 need +$1135.50 to reach target",
+          "oracle is -13.7% below target \u2014 need +$790.56 to reach target"
+        ],
+        "total_equity_usd": "5790.4140749428750489",
+        "total_free_usd": "9.0494445999230489"
+      },
+      "path": "/Users/yomioguntona/baba/wealth-ecosystem/engine/_reports/treasury_latest.json"
+    }
+  },
+  "trustless": {
+    "counts": {
+      "confirmed_open": 9,
+      "missing_on_venue": 4,
+      "size_mismatch": 0,
+      "unowned_naked": 30,
+      "venue_read_failed": 0
+    },
+    "elapsed_sec": 5.67,
+    "evaluator": "trustless_state_v1",
+    "generated_at_iso": "2026-08-30T07:16:11.053917+00:00",
+    "severity": "red",
+    "severity_reason": "30 naked + 4 orphan registry entries",
+    "size_mismatch_tolerance_pct": 10.0,
+    "unowned_venue_positions": [
+      {
+        "asset": "BTC",
+        "entry_price": "77272.1",
+        "mark_price": "78234.0",
+        "side": "short",
+        "size_coin": "0.001852780240216067636313753606",
+        "size_usd": "143.168220",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/BTC/short \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053857+00:00"
+      },
+      {
+        "asset": "ETH",
+        "entry_price": "2163.01",
+        "mark_price": "2457.8",
+        "side": "short",
+        "size_coin": "0.1990774707467834175523922682",
+        "size_usd": "430.60656",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/ETH/short \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053860+00:00"
+      },
+      {
+        "asset": "SOL",
+        "entry_price": "78.2404",
+        "mark_price": "105.21",
+        "side": "long",
+        "size_coin": "1.990158537021794367104462656",
+        "size_usd": "155.7108",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/SOL/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053863+00:00"
+      },
+      {
+        "asset": "AVAX",
+        "entry_price": "7.3538",
+        "mark_price": "7.3313",
+        "side": "long",
+        "size_coin": "12.48169327422557045337104626",
+        "size_usd": "91.787876",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/AVAX/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053865+00:00"
+      },
+      {
+        "asset": "ARB",
+        "entry_price": "0.0891",
+        "mark_price": "0.0867",
+        "side": "long",
+        "size_coin": "3111.858585858585858585858586",
+        "size_usd": "277.26660",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/ARB/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053867+00:00"
+      },
+      {
+        "asset": "INJ",
+        "entry_price": "4.53818",
+        "mark_price": "5.164",
+        "side": "long",
+        "size_coin": "23.55455270615092393867144979",
+        "size_usd": "106.8948",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/INJ/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053869+00:00"
+      },
+      {
+        "asset": "SUI",
+        "entry_price": "0.73627",
+        "mark_price": "0.7445",
+        "side": "long",
+        "size_coin": "432.2785798687981311203770356",
+        "size_usd": "318.27375",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/SUI/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053870+00:00"
+      },
+      {
+        "asset": "XRP",
+        "entry_price": "1.3852",
+        "mark_price": "1.3987",
+        "side": "long",
+        "size_coin": "38.37034363268842044470112619",
+        "size_usd": "53.15060",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/XRP/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053872+00:00"
+      },
+      {
+        "asset": "UNI",
+        "entry_price": "3.72495",
+        "mark_price": "4.9472",
+        "side": "long",
+        "size_coin": "32.93750520141209949126833917",
+        "size_usd": "122.69056",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/UNI/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053874+00:00"
+      },
+      {
+        "asset": "TIA",
+        "entry_price": "0.3479",
+        "mark_price": "0.33554",
+        "side": "long",
+        "size_coin": "340.6517045127910319057200345",
+        "size_usd": "118.512728",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/TIA/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053876+00:00"
+      },
+      {
+        "asset": "JUP",
+        "entry_price": "0.20499",
+        "mark_price": "0.21551",
+        "side": "long",
+        "size_coin": "382.6803258695546124201180545",
+        "size_usd": "78.445640",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/JUP/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053878+00:00"
+      },
+      {
+        "asset": "HBAR",
+        "entry_price": "0.075988",
+        "mark_price": "0.075107",
+        "side": "long",
+        "size_coin": "1843.377309575196083592146128",
+        "size_usd": "140.0745550",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/HBAR/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053879+00:00"
+      },
+      {
+        "asset": "HYPE",
+        "entry_price": "75.4455",
+        "mark_price": "83.158",
+        "side": "short",
+        "size_coin": "4.662416446308924985585621409",
+        "size_usd": "351.75834",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/HYPE/short \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053881+00:00"
+      },
+      {
+        "asset": "TSLA",
+        "entry_price": "338.605",
+        "mark_price": "338.605",
+        "side": "long",
+        "size_coin": "1.362",
+        "size_usd": "461.180010",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/TSLA/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053882+00:00"
+      },
+      {
+        "asset": "NVDA",
+        "entry_price": "216.85",
+        "mark_price": "216.85",
+        "side": "long",
+        "size_coin": "0.13",
+        "size_usd": "28.1905",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/NVDA/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053884+00:00"
+      },
+      {
+        "asset": "HOOD",
+        "entry_price": "104.573",
+        "mark_price": "104.573",
+        "side": "long",
+        "size_coin": "0.496",
+        "size_usd": "51.868208",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/HOOD/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053885+00:00"
+      },
+      {
+        "asset": "INTC",
+        "entry_price": "89.0386",
+        "mark_price": "89.0386",
+        "side": "long",
+        "size_coin": "5.07",
+        "size_usd": "451.425702",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/INTC/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053887+00:00"
+      },
+      {
+        "asset": "AAPL",
+        "entry_price": "307.11",
+        "mark_price": "307.11",
+        "side": "long",
+        "size_coin": "0.948",
+        "size_usd": "291.14028",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/AAPL/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053889+00:00"
+      },
+      {
+        "asset": "MSFT",
+        "entry_price": "485.134",
+        "mark_price": "485.134",
+        "side": "short",
+        "size_coin": "0.764",
+        "size_usd": "370.642376",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/MSFT/short \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053891+00:00"
+      },
+      {
+        "asset": "GOOGL",
+        "entry_price": "344.574",
+        "mark_price": "344.574",
+        "side": "long",
+        "size_coin": "1.793",
+        "size_usd": "617.821182",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/GOOGL/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053892+00:00"
+      },
+      {
+        "asset": "AMD",
+        "entry_price": "468.009",
+        "mark_price": "468.009",
+        "side": "long",
+        "size_coin": "0.629",
+        "size_usd": "294.377661",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/AMD/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053894+00:00"
+      },
+      {
+        "asset": "MU",
+        "entry_price": "923.1",
+        "mark_price": "923.1",
+        "side": "long",
+        "size_coin": "0.478",
+        "size_usd": "441.2418",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/MU/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053895+00:00"
+      },
+      {
+        "asset": "SNDK",
+        "entry_price": "1458.454",
+        "mark_price": "1458.454",
+        "side": "long",
+        "size_coin": "0.239",
+        "size_usd": "348.570506",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/SNDK/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053897+00:00"
+      },
+      {
+        "asset": "SKHX",
+        "entry_price": "1164.23",
+        "mark_price": "1164.23",
+        "side": "long",
+        "size_coin": "0.288",
+        "size_usd": "335.29824",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/SKHX/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053898+00:00"
+      },
+      {
+        "asset": "SMSN",
+        "entry_price": "180.341",
+        "mark_price": "180.341",
+        "side": "long",
+        "size_coin": "2.35",
+        "size_usd": "423.80135",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/SMSN/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053900+00:00"
+      },
+      {
+        "asset": "JP225",
+        "entry_price": "65746.4",
+        "mark_price": "65746.4",
+        "side": "long",
+        "size_coin": "0.01435",
+        "size_usd": "943.460840",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/JP225/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053901+00:00"
+      },
+      {
+        "asset": "ARM",
+        "entry_price": "242.3833",
+        "mark_price": "242.3833",
+        "side": "long",
+        "size_coin": "1.46",
+        "size_usd": "353.879618",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/ARM/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053903+00:00"
+      },
+      {
+        "asset": "SPCX",
+        "entry_price": "134.3863",
+        "mark_price": "134.3863",
+        "side": "long",
+        "size_coin": "0.85",
+        "size_usd": "114.228355",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/SPCX/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053904+00:00"
+      },
+      {
+        "asset": "SMH",
+        "entry_price": "556.718",
+        "mark_price": "556.718",
+        "side": "long",
+        "size_coin": "0.75",
+        "size_usd": "417.53850",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/SMH/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053906+00:00"
+      },
+      {
+        "asset": "BE",
+        "entry_price": "216.7281",
+        "mark_price": "216.7281",
+        "side": "long",
+        "size_coin": "0.81",
+        "size_usd": "175.549761",
+        "venue": "hyperliquid",
+        "venue_verification": "unowned_naked",
+        "verification_alert": "\ud83d\udea8\ud83d\udea8 NAKED ON VENUE: hyperliquid/BE/long \u2014 NO pillar registry owns this. No lifecycle worker will close it. Investigate + close + record in correct pillar.",
+        "verified_at_iso": "2026-08-30T07:16:11.053908+00:00"
+      }
+    ],
+    "venue_health": {
+      "grvt": {
+        "error": "get_positions: [GRVT] grvt-pysdk not installed in this venv: No module named 'pysdk'. Run: .venv/bin/pip install grvt-pysdk",
+        "fetched_at": "2026-08-30T07:16:10.520749+00:00",
+        "ok": false
+      },
+      "hyperliquid": {
+        "error": null,
+        "fetched_at": "2026-08-30T07:16:10.520167+00:00",
+        "ok": true,
+        "position_count": 30
+      },
+      "pacifica": {
+        "error": null,
+        "fetched_at": "2026-08-30T07:16:10.837019+00:00",
+        "ok": true,
+        "position_count": 0
+      }
+    },
+    "verified_positions": {
+      "carry": [],
+      "md": [],
+      "oracle": [
+        {
+          "asset": "WILL-STEPHEN-LYNCH-BE-THE-DEMOCRATIC-NOMINEE-FOR-MA-08",
+          "entry_price": "0.8171",
+          "extra": {
+            "polymarket_condition_id": "0xf56efa5879b1ac0496b649b97793e321e65bed2aff9cfed42d9efa87a0cd7680",
+            "polymarket_token_id": "46688554141591134907151368754264218732364130881653514219834373823719885024053"
+          },
+          "id": 85,
+          "opened_at_iso": "2026-08-28T23:08:00.321415+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "7.343042467262269000122384041",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "confirmed_open",
+          "verification_detail": "confirmed LIVE on Polymarket proxy 0x48f5\u2026b5e0 via data-API (size>0)",
+          "verified_at_iso": "2026-08-30T07:16:10.968437+00:00"
+        },
+        {
+          "asset": "WILL-RICHARD-NEAL-BE-THE-MA-01-DEMOCRATIC-NOMINEE-20260727173754525",
+          "entry_price": "0.9039",
+          "extra": {
+            "polymarket_condition_id": "0xf24ce694cdac95832fd0896af2711b237eae1cb20720ee0d9535053b085d9e72",
+            "polymarket_token_id": "2359730532771391856797356547274871199363292683485262700289779758374876295974"
+          },
+          "id": 84,
+          "opened_at_iso": "2026-08-28T03:37:11.375254+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.637902422834384334550282111",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "confirmed_open",
+          "verification_detail": "confirmed LIVE on Polymarket proxy 0x48f5\u2026b5e0 via data-API (size>0)",
+          "verified_at_iso": "2026-08-30T07:16:10.968484+00:00"
+        },
+        {
+          "asset": "US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-SEPTEMBER-15",
+          "entry_price": "0.8983",
+          "extra": {
+            "polymarket_condition_id": "0x9b94d7e2e7250d156b02435f4d59634d357dc789d842eaee15c35c1158d5bca4",
+            "polymarket_token_id": "81141181734308200688529988294612116916451750660627985997279610187281303006599"
+          },
+          "id": 83,
+          "opened_at_iso": "2026-08-27T18:36:53.589370+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.679283090281643103640209284",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "confirmed_open",
+          "verification_detail": "confirmed LIVE on Polymarket proxy 0x48f5\u2026b5e0 via data-API (size>0)",
+          "verified_at_iso": "2026-08-30T07:16:10.968499+00:00"
+        },
+        {
+          "asset": "LAL-REA-MALA-2026-08-30-REA",
+          "entry_price": "0.8881",
+          "extra": {
+            "polymarket_condition_id": "0xe456796d9cd9c76064f2ec5738856266969aaf80338d671991a9bdd4c915f48c",
+            "polymarket_token_id": "75045527240046078413106655994817383410599163357660335080210559353487171233746"
+          },
+          "id": 82,
+          "opened_at_iso": "2026-08-27T17:06:36.447920+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.755995946402432158540704876",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "confirmed_open",
+          "verification_detail": "confirmed LIVE on Polymarket proxy 0x48f5\u2026b5e0 via data-API (size>0)",
+          "verified_at_iso": "2026-08-30T07:16:10.968511+00:00"
+        },
+        {
+          "asset": "WILL-AFD-WIN-THE-MOST-SEATS-IN-THE-2026-MECKLENBURG-VORPOMMERN-PARLIAMENTARY-ELECTIONS",
+          "entry_price": "0.9188",
+          "extra": {
+            "polymarket_condition_id": "0x6c9bd12ca2dded7eb4c688a3200e94f143cc95984eb1952ab71f7ec31e07cf8c",
+            "polymarket_token_id": "35602493632810760738386198296948892290967628762024875561300523660752297123327"
+          },
+          "id": 81,
+          "opened_at_iso": "2026-08-23T01:06:26.259714+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.530256856769699608184588594",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "confirmed_open",
+          "verification_detail": "confirmed LIVE on Polymarket proxy 0x48f5\u2026b5e0 via data-API (size>0)",
+          "verified_at_iso": "2026-08-30T07:16:10.968523+00:00"
+        },
+        {
+          "asset": "WILL-DARLINE-GRAHAM-NORDONE-WIN-LEXINGTON-COUNTY-IN-THE-SOUTH-CAROLINA-SPECIAL-SENATE-PRIMARY-RUNOFF",
+          "entry_price": "0.9188",
+          "extra": {
+            "polymarket_condition_id": "0x3f1dc6b57ac3fda5b95d25c8db01ba5335e46dfe2f6be50dfff04710fab0e4ac",
+            "polymarket_token_id": "108840381160968302781461631494768964737044921296882723121242281847927683453845"
+          },
+          "id": 80,
+          "opened_at_iso": "2026-08-22T04:05:56.809251+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.530256856769699608184588594",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "missing_on_venue",
+          "verification_alert": "\ud83d\udea8 ORACLE ORPHAN: polymarket/WILL-DARLINE-GRAHAM-NORDONE-WIN-LEXINGTON-COUNTY-IN-THE-SOUTH-CAROLINA-SPECIAL-SENATE-PRIMARY-RUNOFF/long \u2014 token balance 0 on venue, registry says open. Close was never recorded OR position resolved/sold externally.",
+          "verification_detail": "Polymarket wallet token balance = 0 for 10884038116096\u2026, registry expects 6.5303 tokens",
+          "verified_at_iso": "2026-08-30T07:16:11.019927+00:00"
+        },
+        {
+          "asset": "US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-AUGUST-25",
+          "entry_price": "0.9907",
+          "extra": {
+            "polymarket_condition_id": "0x305c77ad59fa89533c15e415d8e6a57eb490215094cc9f937b963a19c5f66c44",
+            "polymarket_token_id": "61266035338126609097678341943704872420259083406996666017235624389844409717472"
+          },
+          "id": 79,
+          "opened_at_iso": "2026-08-22T01:05:45.523936+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.056323811446452003633794287",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "missing_on_venue",
+          "verification_alert": "\ud83d\udea8 ORACLE ORPHAN: polymarket/US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-AUGUST-25/long \u2014 token balance 0 on venue, registry says open. Close was never recorded OR position resolved/sold externally.",
+          "verification_detail": "Polymarket wallet token balance = 0 for 61266035338126\u2026, registry expects 6.0563 tokens",
+          "verified_at_iso": "2026-08-30T07:16:11.033693+00:00"
+        },
+        {
+          "asset": "WILL-ALIBABA-HAVE-THE-BEST-CHINESE-AI-MODEL-AT-THE-END-OF-AUGUST-2026-20260717004241593",
+          "entry_price": "0.9823",
+          "extra": {
+            "polymarket_condition_id": "0x616841e9a65363fcc9a59ddd8adfecc7f3592a18689b95f2f5807dc43174f282",
+            "polymarket_token_id": "33257313448889142117338202598803323983660140128346778402748443216212913313148"
+          },
+          "id": 78,
+          "opened_at_iso": "2026-08-22T01:05:37.905924+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.108113610913162984831517866",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "confirmed_open",
+          "verification_detail": "confirmed LIVE on Polymarket proxy 0x48f5\u2026b5e0 via data-API (size>0)",
+          "verified_at_iso": "2026-08-30T07:16:11.033705+00:00"
+        },
+        {
+          "asset": "BITCOIN-ABOVE-74K-ON-AUGUST-24-2026",
+          "entry_price": "0.9807",
+          "extra": {
+            "polymarket_condition_id": "0x29a5359b7ceb474cce180b5c7648fe41c36955e11e4f925a5f7b68fe17dd9836",
+            "polymarket_token_id": "93120155420251383563056307698859837761775693150183689123264664564747777461656"
+          },
+          "id": 77,
+          "opened_at_iso": "2026-08-22T01:05:30.514455+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.118078923218109513612725604",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "missing_on_venue",
+          "verification_alert": "\ud83d\udea8 ORACLE ORPHAN: polymarket/BITCOIN-ABOVE-74K-ON-AUGUST-24-2026/long \u2014 token balance 0 on venue, registry says open. Close was never recorded OR position resolved/sold externally.",
+          "verification_detail": "Polymarket wallet token balance = 0 for 93120155420251\u2026, registry expects 6.1181 tokens",
+          "verified_at_iso": "2026-08-30T07:16:11.044548+00:00"
+        },
+        {
+          "asset": "WILL-DAN-KOH-BE-THE-DEMOCRATIC-NOMINEE-FOR-MA-06",
+          "entry_price": "0.9398",
+          "extra": {
+            "polymarket_condition_id": "0xd2481bf85502225a8cfe44cdb7156dc3d8c4e73dc3b287c3177549ceb151f29a",
+            "polymarket_token_id": "34475253243349438142961886130741254711175374818336361684130855418926927945608"
+          },
+          "id": 76,
+          "opened_at_iso": "2026-08-21T19:05:18.448157+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.384337092998510321344967014",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "confirmed_open",
+          "verification_detail": "confirmed LIVE on Polymarket proxy 0x48f5\u2026b5e0 via data-API (size>0)",
+          "verified_at_iso": "2026-08-30T07:16:11.044556+00:00"
+        },
+        {
+          "asset": "WILL-MAGDALENA-ANDERSSON-BE-THE-NEXT-PRIME-MINISTER-OF-SWEDEN",
+          "entry_price": "0.9292",
+          "extra": {
+            "polymarket_condition_id": "0x58d5cc2bf06a3289b127049239aee051f3b941f219efebbca02d3f50f0eb2a64",
+            "polymarket_token_id": "6761884778816083542753350539779617201084594664234729655783875952381923983097"
+          },
+          "id": 75,
+          "opened_at_iso": "2026-08-21T19:05:10.960857+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.457167455876022384847180370",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "confirmed_open",
+          "verification_detail": "confirmed LIVE on Polymarket proxy 0x48f5\u2026b5e0 via data-API (size>0)",
+          "verified_at_iso": "2026-08-30T07:16:11.044559+00:00"
+        },
+        {
+          "asset": "US-X-IRAN-CEASEFIRE-CONTINUES-THROUGH-AUGUST-31",
+          "entry_price": "0.9188",
+          "extra": {
+            "polymarket_condition_id": "0x137cf69002f2f24c6cbc7572321db1f6fd995f53d2457fda7e52f7fd82446794",
+            "polymarket_token_id": "36883966188402112469990905672991660623877201475532264419725150949897779581736"
+          },
+          "id": 74,
+          "opened_at_iso": "2026-08-21T19:05:03.174100+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "6.530256856769699608184588594",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "confirmed_open",
+          "verification_detail": "confirmed LIVE on Polymarket proxy 0x48f5\u2026b5e0 via data-API (size>0)",
+          "verified_at_iso": "2026-08-30T07:16:11.044561+00:00"
+        },
+        {
+          "asset": "BITCOIN-ABOVE-74K-ON-AUGUST-27-2026",
+          "entry_price": "0.8400",
+          "extra": {
+            "polymarket_condition_id": "0xa76890f38fee3138b637b0429d8bfeba71cfad9f6fa54f0a107f34a0d9505837",
+            "polymarket_token_id": "53769803257810748681121166310408252947935347418038548176977746239279623242536"
+          },
+          "id": 73,
+          "opened_at_iso": "2026-08-21T19:04:55.827556+00:00",
+          "pillar": "oracle",
+          "side": "long",
+          "size_coin": "7.142857142857142857142857143",
+          "size_usd": "6.0",
+          "strategy_id": "oracle_flb_fav",
+          "venue": "polymarket",
+          "venue_verification": "missing_on_venue",
+          "verification_alert": "\ud83d\udea8 ORACLE ORPHAN: polymarket/BITCOIN-ABOVE-74K-ON-AUGUST-27-2026/long \u2014 token balance 0 on venue, registry says open. Close was never recorded OR position resolved/sold externally.",
+          "verification_detail": "Polymarket wallet token balance = 0 for 53769803257810\u2026, registry expects 7.1429 tokens",
+          "verified_at_iso": "2026-08-30T07:16:11.053842+00:00"
+        }
+      ]
+    }
+  }
+}
