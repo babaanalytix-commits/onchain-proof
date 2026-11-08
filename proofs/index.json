@@ -121,6 +121,13 @@
       "bytes": 115106,
       "keccak256": "0x9905dd9a7590f4bd4ee31d8662fe75446883664a28388dbf4e9a40c6292b2e30",
       "label": "nav-2026-W44"
+    },
+    {
+      "week": "2026-W45",
+      "file": "proof-2026-W45.json",
+      "bytes": 110021,
+      "keccak256": "0x5b079d979bad48a4e7cbc0c6db346579a8f2739b6036ac38f7778df5b90a6eba",
+      "label": "nav-2026-W45"
     }
   ]
 }
